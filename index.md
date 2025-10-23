@@ -5,6 +5,7 @@
 
 ### 🧩 Unidad 1 – Fundamentos de la Programación  
 > Conceptos básicos, lógica algorítmica y primeros programas.  
+[Unidad 1](Unidad1.md)
 
 ---
 
