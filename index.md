@@ -3,14 +3,14 @@
 
 ---
 
-### 🧩 Unidad 1 – Fundamentos de la Programación  
-> Conceptos básicos, lógica algorítmica y primeros programas.  
+### 🧩 Unidad 1 – Fundamentos de Algoritmos y programas
+> Conceptos fundamentales, elementos básicos y herramientas para programcación.
 [Unidad 1](Unidad1.md)
 
 ---
 
-### ⚙️ Unidad 2 – Estructuras y Control de Flujo  
-> Aplicación de condicionales, bucles y modularización del código.  
+### ⚙️ Unidad 2 – Estructuras algorítmicas de control
+> Estructura algorítmicas condicionales y repetitivas
 
 ---
 
