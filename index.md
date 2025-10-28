@@ -6,11 +6,14 @@
   <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
   </p>
 
-#  PORTAFOLIO DIGITAL DE APRENDIZAJE 💻
+# 💻 Portafolio Digital de Aprendizaje – Teoría de la Programación
+
+
+*Una compilación de los avances, prácticas y reflexiones sobre los fundamentos del desarrollo de software.*
 
 ---
 
-## 🏛️ Carátula
+## 🎓 Carátula
 
 <table>
   <tr>
@@ -45,103 +48,52 @@
 
 ---
 
-## 🚀 UNIDAD 1: Fundamentos de la Programación y Algoritmos
+## 📚 Contenidos del Portafolio
 
-¡El punto de partida de todo programador! Esta unidad fue clave para aprender a "pensar" antes de "codificar".
+A continuación, se presenta el desglose de las unidades que componen este portafolio digital.
 
-### 🧠 1.1 Contenidos de la Unidad
+### 📌 Unidad 1: Fundamentos de la Programación
 
-#### 🗺️ Algoritmos, Pseudocódigo y Diagramas de Flujo
-<p align="center">
-  <img width="400" height="220" alt="image" src="https://github.com/user-attachments/assets/7aaeea67-376a-436e-80ac-928a41c3ba00" />
-  
+¡El punto de partida! Contiene el desarrollo de los conceptos iniciales, algoritmos, pseudocódigo y las primeras tareas prácticas de la asignatura.
+
+> **➡️ Haz clic aquí para ver todo el contenido de la Unidad 1:**
+> ## **[🚀 Acceder a la Unidad 1](./Unidad1/)**
+
+*(Este enlace te llevará a la subcarpeta de la Unidad 1)*
+
+---
+
+### ⬜️ Unidad 2
+
+*(No aplica para esta entrega)*
+
+---
+
+### ⬜️ Unidad 3
+
+*(No aplica para esta entrega)*
+
+---
+
+### 📋 Conclusiones Generales
+
+*(No aplica para esta entrega)*
+
+---
+
+### 📑 Bibliografía (Formato IEEE)
+
+[1] A. S. Tanenbaum y D. J. Wetherall, *Redes de Computadoras*, 5.ª ed. Madrid, España: Pearson Educación, 2012.
+
+[2] D. E. Knuth, "Algorithms in Modern Mathematics and Computer Science," en *Lecture Notes in Computer Science*, vol. 100, A. P. Ershov y D. E. Knuth, Eds. Berlin, Alemania: Springer-Verlag, 1981, pp. 82–99.
+
+[3] G. Van Rossum, "Python Tutorial, Release 3.10.0," Python Software Foundation, 2024. [En línea]. Disponible en: https://docs.python.org/3/tutorial/. [Accedido: 28 de octubre de 2025].
+
+---
+
+### 🤖 Declaración de Uso de la IA Generativa
+
 > [!NOTE]
-> **Definiciones Clave:**
-> * **Algoritmo:** La "receta" 🍳. Una secuencia de pasos lógicos, finitos y claros para resolver un problema.
-> * **Pseudocódigo:** El "borrador" 📝. Escribir el algoritmo en un lenguaje simple, casi humano, pero estructurado.
-> * **Diagrama de Flujo:** El "mapa" 🗺️. La representación gráfica del algoritmo. ¡Una imagen vale más que mil líneas de código!
-
-<p align="center">
-  <img width="417" height="674" alt="image" src="https://github.com/user-attachments/assets/f25bd6ee-1964-46b2-ba30-6da1ff3e434b" />
-
-  <br>
-  <em><b>Figura 1:</b> Diagrama de flujo para [Describe el problema, ej: sumar dos números].</em>
-</p>
-
-#### 🧩 Programación por Bloques
-
-Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de programación. Usamos herramientas como Scratch para entender bucles, condicionales y eventos sin la frustración de la sintaxis.
-
-<p align="center">
-  <img src="./imagenes/mi_proyecto_scratch.gif" alt="GIF de mi proyecto en Scratch" width="600"/>
-  <br>
-  <em><b>Figura 2:</b> Animación de mi primer proyecto en Scratch.</em>
-</p>
-
-#### ➡️ Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales
-
-Son algoritmos directos, como una lista de tareas. Se ejecuta el paso 1, luego el 2, luego el 3, sin desvíos ni repeticiones.
-
-**Ejemplo: Calcular el área de un triángulo**
-```pseudocode
-Proceso AreaTriangulo
-    Definir base, altura, area Como Real
-    
-    Escribir "Ingrese la base del triángulo:"
-    Leer base
-    
-    Escribir "Ingrese la altura del triángulo:"
-    Leer altura
-    
-    area <- (base * altura) / 2
-    
-    Escribir "El área del triángulo es: ", area
-FinProceso
+> Se utilizó asistencia de herramientas de IA Generativa (Gemini de Google) para la **maquetación y generación de la estructura Markdown** de este portafolio. Todo el contenido académico, reflexiones, tareas, códigos y análisis de dificultades son de **autoría propia** y reflejan mi proceso de aprendizaje personal en la asignatura.
 
 ---
-
-## 🧩 **UNIDAD 1: Fundamentos de Algoritmos y programas**
-
----
-
-### 📖 **Contenidos de la Unidad**
-
-#### 🧠 **1. Algoritmos, pseudocódigo y diagramas de flujo**
-- *(Aquí redacta la definición y ejemplos que estudiaste.)*  
-- 📸 **Inserta imagen:** diagrama de flujo o ejemplo de algoritmo  
-  ```markdown
-  ![Diagrama de flujo - Ejemplo](imagenes/diagrama_flujo.png)
-
-# 💻 Teoría de la Programación  
-## 📚 Portafolio Digital de Aprendizaje  
-
----
-
-### 🧩 Unidad 1 – Fundamentos de Algoritmos y programas
-> Conceptos fundamentales, elementos básicos y herramientas para programcación.
-[Unidad 1](Unidad1.md)
-
----
-
-### ⚙️ Unidad 2 – Estructuras algorítmicas de control
-> Estructura algorítmicas condicionales y repetitivas
-
----
-
-### 🧠 Unidad 3 – Resolución de Problemas y Buenas Prácticas  
-> Desarrollo de programas eficientes y análisis de algoritmos.  
-
----
-
-### 📝 Conclusiones  
-> Reflexión sobre el proceso de aprendizaje, avances personales y comprensión de los principios de la programación.  
-
----
-
-### 📖 Referencias  
-> Fuentes teóricas, materiales de clase y documentación técnica utilizada.  
-
----
-
-### 🤖 Uso de la IA Generativa  
-> Descripción del apoyo recibido por herramientas de inteligencia artificial (como ChatGPT) en la elaboración de contenidos y prácticas.  
