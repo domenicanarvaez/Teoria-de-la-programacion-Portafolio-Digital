@@ -162,12 +162,12 @@ Actividades enfocadas en la auto-investigación, práctica y profundización de 
 #### 📦 Tarea 1: Herramientas de Algoritmos (Pseudocódigo y Diagramas de Flujo)
 
 * **Descripción:** Investigación sobre una de las principales herramientas de software "PSeInt" para la creación de algoritmos y diagramas de flujo.
-* **Enlace:** [Ver Tarea 1 AA (PDF)](../Tarea%20AA1.pdf)
+* **Enlace:** [Ver Tarea 1 AA (PDF)](Tarea%20AA1.pdf)
 
 #### 🔧 Tarea 2: Instalación de Lenguajes de Programación (C, Python o Java)
 
 * **Descripción:** Informe con capturas de pantalla que evidencian la correcta instalación y configuración del entorno de desarrollo GCC para C y la ejecución del primer programa 'Hola Mundo'.
-* **Enlace:** [Ver Tarea 2 (PDF)](../Tarea%20AA2.pdf)
+* **Enlace:** [Ver Tarea 2 (PDF)](Tarea%20AA2.pdf)
 
 ---
 
@@ -185,6 +185,3 @@ Tareas diseñadas para aplicar los conocimientos teóricos en escenarios prácti
 * **Descripción:** Ejercicio completo que muestra el proceso desde el diseño (en PSeInt) de un problema hasta su implementación final en un lenguaje de programación formal (C).
 * **Enlace:** [Ver Tarea 2 APE (PDF)](Tarea%20APE2.pdf)
 
----
-
-[🔙 Volver a la Portada Principal](index.md)
