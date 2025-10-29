@@ -47,6 +47,7 @@
 ---
 
 **Formas de representar un algoritmo:**
+
 > * **Pseudocódigo:** El "borrador" 📝. Son instrucciones escritas bajo cierta estructura y reglas que inducirán a los principiantes hacia los lenguajes de programación. Consiste en escribir el algoritmo en un lenguaje simple, casi humano, pero estructurado.
 >
 > Ejemplo:
@@ -62,11 +63,25 @@
 
 ---
 
-PSeInt
+**Herramienta usada: PSeInt**
+
+<p align="center">
+<img width="140" height="146" alt="image" src="https://github.com/user-attachments/assets/0e048d5c-9191-47fd-9eac-832c0132850f" />
+
+  
+PSeInt es un software educativo gratuito que ayuda a los principiantes a aprender la lógica de programación. Utiliza un pseudocódigo sencillo e intuitivo en español para que los estudiantes puedan crear y entender algoritmos sin tener que lidiar con la compleja sintaxis de un lenguaje de programación real.
+
+---
 
 #### 🧩 2. Programación por Bloques
 
-Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de programación. Usamos herramientas como Scratch para entender bucles, condicionales y eventos sin la frustración de la sintaxis.
+Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de programación. Usamos herramientas como:
+* **Blocky Games** sirve para enseñar programación a principiantes nediante juegos interactivos, usando bloques visuales que se encajan, en lugar de código escrito. El objetivo es aprender la lógica de la programación de forma divertida y sin frustración.
+
+<p align="center">
+  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8f1c01b3-70cf-449b-bd11-3517371137fb" />
+
+* **Pilas Bloques** sirve para entender bucles, condicionales y eventos de una manera visual e intuitiva. Sin la frustración de la sintaxis.
 
 <p align="center">
   <img src="./imagenes/mi_proyecto_scratch.gif" alt="GIF de mi proyecto en Scratch" width="600"/>
