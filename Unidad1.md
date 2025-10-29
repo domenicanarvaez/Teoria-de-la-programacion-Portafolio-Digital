@@ -162,7 +162,7 @@ Actividades enfocadas en la auto-investigación, práctica y profundización de 
 #### 📦 Tarea 1: Herramientas de Algoritmos (Pseudocódigo y Diagramas de Flujo)
 
 * **Descripción:** Investigación sobre una de las principales herramientas de software "PSeInt" para la creación de algoritmos y diagramas de flujo.
-* **Enlace:** [Ver Tarea 1 AA (PDF)](../tarea_aa1.pdf)
+* **Enlace:** [Ver Tarea 1 AA (PDF)](https://drive.google.com/file/d/1_StfZ-StG6K8hbjwmIEVGKtvgRwnL4AS/view?usp=sharing)
 
 #### 🔧 Tarea 2: Instalación de Lenguajes de Programación (C, Python o Java)
 
