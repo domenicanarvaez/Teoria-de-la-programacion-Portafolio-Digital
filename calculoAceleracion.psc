@@ -1,9 +1,9 @@
 Algoritmo calculoAceleracion
 	
-    // Definir las variables
+    //Definir las variables
     Definir aceleracion, velocidadInicial, velocidadFinal, tiempoInicial, tiempoFinal Como Real
     
-    // Datos de entrada
+    //Datos de entrada
     Escribir "Ingrese el valor que tiene la velocidad inicial(m/s):"
     Leer velocidadInicial
     
