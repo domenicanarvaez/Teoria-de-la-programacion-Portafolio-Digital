@@ -3,8 +3,6 @@
 
 <p align="center">
   <img alt="Markdown" src="https://img.shields.io/badge/Hecho_con-Markdown-181717?style=for-the-badge&logo=markdown&logoColor=white"/>
-  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black"/>
-  </p>
 
 # 💻 Portafolio Digital de Aprendizaje – Teoría de la Programación
 
