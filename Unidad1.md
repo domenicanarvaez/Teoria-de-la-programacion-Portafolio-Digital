@@ -2,9 +2,11 @@
 
 ## 🚀 UNIDAD 1: Fundamentos de la Programación y Algoritmos
 
-¡El punto de partida de todo programador! Esta unidad fue clave para aprender a "pensar" antes de "codificar".
+💡 ¡El punto de partida de todo programador! Esta unidad fue clave para aprender a "pensar" antes de "codificar".
 
 <p align="center"><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/558ba8d8-f318-4c08-be88-4f4c20fc589a" />
+
+---
 
 ### 🧠 Contenidos de la Unidad
 
@@ -13,8 +15,8 @@
 
 > [!NOTE]
 > * **Algoritmo:** La "receta" 🍳. Es una secuencia de pasos lógicos, finitos y claros que dan solución a un problema determinado.
->   **Clasificación:**
->   * **Cualitativos:** La descripción es a través de frases y palabras.
+>   **🗂️ Clasificación:**
+>   * **🗣️Cualitativos:** La descripción es a través de frases y palabras.
 >     Ejemplo:
 >     Algoritmo para la suma de dos números
 >     1. Inicio.
@@ -167,7 +169,7 @@ Actividades enfocadas en la auto-investigación, práctica y profundización de 
 #### 🔧 Tarea 2: Instalación de Lenguajes de Programación (C, Python o Java)
 
 * **Descripción:** Informe con capturas de pantalla que evidencian la correcta instalación y configuración del entorno de desarrollo GCC para C y la ejecución del primer programa 'Hola Mundo'.
-* **Enlace:** [Ver Tarea 2 (PDF)](Tarea%20AA2.pdf)
+* **Enlace:** [Ver Tarea 2 (PDF)](https://drive.google.com/file/d/15fUyBEn_aVvRdZ6SXHOGYWUv4eWIN-n6/view?usp=sharing)
 
 ---
 
@@ -178,10 +180,10 @@ Tareas diseñadas para aplicar los conocimientos teóricos en escenarios prácti
 #### ⌨️ Tarea 1: Primer Acercamiento a Estructuras Secuenciales en Pseudocódigo
 
 * **Descripción:** Desarrollo de 1 algoritmo utilizando PSeInt que involucra únicamente estructuras secuenciales (cálculo del Índice de Masa Corporal (IMC)).
-* **Enlace:** [Ver Tarea 1 APE (PDF)](Tarea%20APE1.pdf)
+* **Enlace:** [Ver Tarea 1 APE (PDF)](https://drive.google.com/file/d/1mm-74-xZGY1PQrObL97xhwyEsw5ilNHe/view?usp=sharing)
 
 #### 🧬 Tarea 2: Del Diseño del Algoritmo a la Construcción del Programa
 
 * **Descripción:** Ejercicio completo que muestra el proceso desde el diseño (en PSeInt) de un problema hasta su implementación final en un lenguaje de programación formal (C).
-* **Enlace:** [Ver Tarea 2 APE (PDF)](Tarea%20APE2.pdf)
+* **Enlace:** [Ver Tarea 2 APE (PDF)](https://drive.google.com/file/d/1EiVzkR2qXhUvzrJjp4dQPbFgn-iWF94p/view?usp=sharing)
 
