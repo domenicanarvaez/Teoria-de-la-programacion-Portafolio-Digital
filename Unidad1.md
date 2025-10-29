@@ -103,28 +103,57 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
 
 Son algoritmos directos, como una lista de tareas. Se ejecuta el paso 1, luego el 2, luego el 3, sin desvíos ni repeticiones.
 
-*Aquí están los enlaces a los algoritmos de ejemplo, guardados en sus respectivas carpetas:*
-
-* 💻 **PSeInt:** [Algoritmo Secuencial de Suma](./Algoritmos/PSeInt/SumaSecuencial.psc)
-* 🐍 **Python:** [Algoritmo Secuencial de Saludo](./Algoritmos/Python/SaludoSecuencial.py)
-* ☕ **Java:** [Algoritmo Secuencial de Área](./Algoritmos/Java/AreaRectangulo.java)
-* 🔵 **C:** [Algoritmo Secuencial de Promedio](./Algoritmos/C/PromedioSecuencial.c)
+A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (para la lógica) y en C (para la implementación).
 
 
+#### 🚗 Ejemplo 1: Cálculo de Aceleración
+* **Descripción:** Un algoritmo que solicita al usuario las velocidades (inicial y final) y el tiempo, para calcular y mostrar la aceleración resultante.
+* **Enlaces:**
+    * [Ver en PSeInt 💻](calculoAceleracion.psc)
+    * [Ver en C 🔵](calculoAceleracion.c)
+
+
+#### 🔢 Ejemplo 2: Doble y Triple de un Número
+* **Descripción:** Un ejercicio básico que lee un número ingresado por el usuario y simplemente muestra en pantalla cuál es su valor doble y su valor triple.
+* **Enlaces:**
+    * [Ver en PSeInt 💻](dobleYTriple.psc)
+    * [Ver en C 🔵](dobleYTriple.c)
+
+---
+
+#### ✂️ Ejemplo 3: Descomposición de un Número Real
+* **Descripción:** Este algoritmo toma un número con decimales (ej: `12.35`) y lo procesa para mostrar por separado su parte entera (`12`) y su parte decimal (`0.35`).
+* **Enlaces:**
+    * [Ver en PSeInt 💻](separarDecimales.psc)
+    * [Ver en C 🔵](separarDecimales.c)
+
+---
 
 ### 4. Principales Dificultades en la Aplicación
 
-*(Escribe aquí las dificultades que encontraste. Por ejemplo: "La principal dificultad fue traducir los requerimientos de un problema del lenguaje natural a un pseudocódigo estructurado, especialmente al identificar qué datos eran de 'Entrada' y cuáles de 'Salida'...")*
+Durante el desarrollo de los trabajos de esta unidad, me encontré con algunas dificultades:
+
+* En PSeInt, al principio fue algo difícil aprender a "traducir" el enunciado de un problema a un pseudocódigo estructurado. Era confuso diferenciar claramente qué datos debía pedir (Entrada).
+
+* Al programar en C, se me complicó recordar los especificadores de formato (%f, %d) y también cómo y cuándo usarlos.
+
+* En C es un poco más complicado ejecutar el programa, porque primero hay que compilar y luego ejecutar, usando dos comandos específicos para cada acción.
+
+* Pude notar que PSeInt te avisa de un error de sintaxis casi al instante. En cambio, en C, no te marca el error al momento de desarrollar el algoritmo, sino que este aparece al momento de compilar. En ese punto, no puedes avanzar, sale el error y nuevamente tienes que corregir y volver a compilar.
 
 ### 5. Reflexión Crítica de los Aprendizajes
 
-*(Escribe aquí tu reflexión. Por ejemplo: "Comprendí que la programación no se trata de memorizar comandos de un lenguaje, sino de saber diseñar la solución. Un buen diagrama de flujo es universal y puede ser implementado en C, Python o cualquier otro lenguaje...")*
+Al terminar esta primera unidad, mi mayor aprendizaje es darme cuenta de que la programación no se trata de memorizar comandos de un lenguaje, sino de saber cómo pensar y diseñar una solución antes de escribir la primera línea de código.
+
+Comprendí el valor real de usar PSeInt. Más que una herramienta para principiantes, la vi como una forma de ordenar y validar la lógica de un algoritmo. Me permitió aprender a definir qué necesitaba (Entrada), qué pasos debía seguir (Proceso) y qué debía mostrar (Salida) al usuario.
+
+En C, la lógica que ya había resuelto en PSeInt era la misma, pero ahora había que traducir esa lógica a una sintaxis formal, y para ello hay que aprender algunas reglas específicas de la herramienta.
+
+En resumen, esta unidad fue clave porque me ayudó a conocer las bases fundamentales para programar. Me permitió aprender a diseñar la lógica pura con PSeInt y a aplicar la sintaxis formal propia de un lenguaje como C. Gracias a los recursos y explicaciones proporcionadas por la maestra, este proceso de conectar la lógica con la sintaxis fue mucho más sencillo de comprender.
 
 ---
 
 ## 🚀 Tareas Entregadas
-
-Aquí se detallan las tareas desarrolladas, clasificadas según el tipo de aprendizaje.
 
 ### 1. Aprendizaje Práctico Experimental (APE)
 
