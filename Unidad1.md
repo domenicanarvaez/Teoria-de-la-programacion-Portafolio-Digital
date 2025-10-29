@@ -53,6 +53,7 @@
 > Ejemplo:
 > [Haz clic para ver un ejemplo de pseudocódigo](./EjemploPseudocódigo.md/)
 > * **Diagrama de Flujo:** El "mapa" 🗺️. Utiliza símbolos y describen las instrucciones que debe seguir el algoritmo.
+>
 >   Ejemplo:
 > [Haz clic para ver un ejemplo de diagrama de flujo](./EjemploPseudocódigo.md/)
 
@@ -76,19 +77,85 @@ PSeInt es un software educativo gratuito que ayuda a los principiantes a aprende
 #### 🧩 2. Programación por Bloques
 
 Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de programación. Usamos herramientas como:
+
 * **Blocky Games** sirve para enseñar programación a principiantes nediante juegos interactivos, usando bloques visuales que se encajan, en lugar de código escrito. El objetivo es aprender la lógica de la programación de forma divertida y sin frustración.
 
+- [Blocky Games](https://blockly.games/?lang=en)
 <p align="center">
-  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8f1c01b3-70cf-449b-bd11-3517371137fb" />
+<img width="886" height="444" alt="image" src="https://github.com/user-attachments/assets/db419a71-7b12-42e3-a44b-d3eb428bab18" />
+  <br>
+  <em><b>Figura 3:</b> Desafíos de Blocky Games.</em>
+</p>
+
 
 * **Pilas Bloques** sirve para entender bucles, condicionales y eventos de una manera visual e intuitiva. Sin la frustración de la sintaxis.
 
+- [Pilas Bloques](https://pilasbloques.program.ar/online/#/)
 <p align="center">
-  <img src="./imagenes/mi_proyecto_scratch.gif" alt="GIF de mi proyecto en Scratch" width="600"/>
+  <img width="1917" height="969" alt="image" src="https://github.com/user-attachments/assets/0ae3b062-a8ee-4a7e-9ebc-3d00623565bb" />
   <br>
-  <em><b>Figura 2:</b> Animación de mi primer proyecto en Scratch.</em>
+  <em><b>Figura 4:</b> Desafíos de Pilas Bloques</em>
 </p>
+
+---
 
 #### ➡️ 3. Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales
 
 Son algoritmos directos, como una lista de tareas. Se ejecuta el paso 1, luego el 2, luego el 3, sin desvíos ni repeticiones.
+
+*Aquí están los enlaces a los algoritmos de ejemplo, guardados en sus respectivas carpetas:*
+
+* 💻 **PSeInt:** [Algoritmo Secuencial de Suma](./Algoritmos/PSeInt/SumaSecuencial.psc)
+* 🐍 **Python:** [Algoritmo Secuencial de Saludo](./Algoritmos/Python/SaludoSecuencial.py)
+* ☕ **Java:** [Algoritmo Secuencial de Área](./Algoritmos/Java/AreaRectangulo.java)
+* 🔵 **C:** [Algoritmo Secuencial de Promedio](./Algoritmos/C/PromedioSecuencial.c)
+
+
+
+### 4. Principales Dificultades en la Aplicación
+
+*(Escribe aquí las dificultades que encontraste. Por ejemplo: "La principal dificultad fue traducir los requerimientos de un problema del lenguaje natural a un pseudocódigo estructurado, especialmente al identificar qué datos eran de 'Entrada' y cuáles de 'Salida'...")*
+
+### 5. Reflexión Crítica de los Aprendizajes
+
+*(Escribe aquí tu reflexión. Por ejemplo: "Comprendí que la programación no se trata de memorizar comandos de un lenguaje, sino de saber diseñar la solución. Un buen diagrama de flujo es universal y puede ser implementado en C, Python o cualquier otro lenguaje...")*
+
+---
+
+## 🚀 Tareas Entregadas
+
+Aquí se detallan las tareas desarrolladas, clasificadas según el tipo de aprendizaje.
+
+### 1. Aprendizaje Práctico Experimental (APE)
+
+Tareas diseñadas para aplicar los conocimientos teóricos en escenarios prácticos y controlados.
+
+#### 📦 Tarea 1: Herramientas de Algoritmos (Pseudocódigo y Diagramas de Flujo)
+
+* **Descripción:** *[Escribe tu descripción. Ej: "Investigación y cuadro comparativo sobre las principales herramientas de software (PSeInt, DFD, Lucidchart) para la creación de algoritmos y diagramas de flujo."]*
+* **Enlace:** [Ver Tarea 1 (PDF)](./Tareas/APE_Tarea1_Herramientas.pdf)
+
+#### 🔧 Tarea 2: Instalación de Lenguajes de Programación (C, Python o Java)
+
+* **Descripción:** *[Escribe tu descripción. Ej: "Informe con capturas de pantalla que evidencian la correcta instalación y configuración del entorno de desarrollo [Tu Lenguaje, ej: GCC para C] y la ejecución del primer programa 'Hola Mundo'."]*
+* **Enlace:** [Ver Tarea 2 (PDF)](./Tareas/APE_Tarea2_Instalacion.pdf)
+
+---
+
+### 2. Aprendizaje Autónomo (AA)
+
+Actividades enfocadas en la auto-investigación, práctica y profundización de los temas.
+
+#### ⌨️ Tarea 3: Primer Acercamiento a Estructuras Secuenciales (PSeInt)
+
+* **Descripción:** *[Escribe tu descripción. Ej: "Resolución de 5 algoritmos utilizando PSeInt que involucran únicamente estructuras secuenciales (cálculo de áreas, conversión de unidades, promedios simples)."]*
+* **Enlace:** [Ver Tarea 3 (PDF + .psc)](./Tareas/AA_Tarea3_Secuenciales.zip) *(Te recomiendo comprimir el PDF y los .psc en un .zip)*
+
+#### 🧬 Tarea 4: Del Diseño del Algoritmo a la Construcción del Programa
+
+* **Descripción:** *[Escribe tu descripción. Ej: "Ejercicio completo que muestra el proceso desde el diseño (Diagrama de Flujo y PSeInt) de un problema hasta su implementación final en un lenguaje de programación formal [Tu Lenguaje, ej: C]."]*
+* **Enlace:** [Ver Tarea 4 (PDF)](./Tareas/AA_Tarea4_Diseno_vs_Codigo.pdf)
+
+---
+
+[🔙 Volver a la Portada Principal](../README.md)
