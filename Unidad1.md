@@ -155,35 +155,35 @@ En resumen, esta unidad fue clave porque me ayudó a conocer las bases fundament
 
 ## 🚀 Tareas Entregadas
 
-### 1. Aprendizaje Práctico Experimental (APE)
-
-Tareas diseñadas para aplicar los conocimientos teóricos en escenarios prácticos y controlados.
-
-#### 📦 Tarea 1: Herramientas de Algoritmos (Pseudocódigo y Diagramas de Flujo)
-
-* **Descripción:** *[Escribe tu descripción. Ej: "Investigación y cuadro comparativo sobre las principales herramientas de software (PSeInt, DFD, Lucidchart) para la creación de algoritmos y diagramas de flujo."]*
-* **Enlace:** [Ver Tarea 1 (PDF)](./Tareas/APE_Tarea1_Herramientas.pdf)
-
-#### 🔧 Tarea 2: Instalación de Lenguajes de Programación (C, Python o Java)
-
-* **Descripción:** *[Escribe tu descripción. Ej: "Informe con capturas de pantalla que evidencian la correcta instalación y configuración del entorno de desarrollo [Tu Lenguaje, ej: GCC para C] y la ejecución del primer programa 'Hola Mundo'."]*
-* **Enlace:** [Ver Tarea 2 (PDF)](./Tareas/APE_Tarea2_Instalacion.pdf)
-
----
-
-### 2. Aprendizaje Autónomo (AA)
+### 1. Aprendizaje Autónomo (AA)
 
 Actividades enfocadas en la auto-investigación, práctica y profundización de los temas.
 
-#### ⌨️ Tarea 3: Primer Acercamiento a Estructuras Secuenciales (PSeInt)
+#### 📦 Tarea 1: Herramientas de Algoritmos (Pseudocódigo y Diagramas de Flujo)
 
-* **Descripción:** *[Escribe tu descripción. Ej: "Resolución de 5 algoritmos utilizando PSeInt que involucran únicamente estructuras secuenciales (cálculo de áreas, conversión de unidades, promedios simples)."]*
-* **Enlace:** [Ver Tarea 3 (PDF + .psc)](./Tareas/AA_Tarea3_Secuenciales.zip) *(Te recomiendo comprimir el PDF y los .psc en un .zip)*
+* **Descripción:** Investigación sobre una de las principales herramientas de software "PSeInt" para la creación de algoritmos y diagramas de flujo.
+* **Enlace:** [Ver Tarea 1 AA (PDF)](../Tarea%20AA1.pdf)
 
-#### 🧬 Tarea 4: Del Diseño del Algoritmo a la Construcción del Programa
+#### 🔧 Tarea 2: Instalación de Lenguajes de Programación (C, Python o Java)
 
-* **Descripción:** *[Escribe tu descripción. Ej: "Ejercicio completo que muestra el proceso desde el diseño (Diagrama de Flujo y PSeInt) de un problema hasta su implementación final en un lenguaje de programación formal [Tu Lenguaje, ej: C]."]*
-* **Enlace:** [Ver Tarea 4 (PDF)](./Tareas/AA_Tarea4_Diseno_vs_Codigo.pdf)
+* **Descripción:** Informe con capturas de pantalla que evidencian la correcta instalación y configuración del entorno de desarrollo GCC para C y la ejecución del primer programa 'Hola Mundo'.
+* **Enlace:** [Ver Tarea 2 (PDF)](../Tarea%20AA2.pdf)
+
+---
+
+### 2. Aprendizaje Práctico Experimental (APE)
+
+Tareas diseñadas para aplicar los conocimientos teóricos en escenarios prácticos y controlados.
+
+#### ⌨️ Tarea 1: Primer Acercamiento a Estructuras Secuenciales en Pseudocódigo
+
+* **Descripción:** Desarrollo de 1 algoritmo utilizando PSeInt que involucra únicamente estructuras secuenciales (cálculo del Índice de Masa Corporal (IMC)).
+* **Enlace:** [Ver Tarea 1 APE (PDF)](../Tarea%20APE1.pdf)
+
+#### 🧬 Tarea 2: Del Diseño del Algoritmo a la Construcción del Programa
+
+* **Descripción:** Ejercicio completo que muestra el proceso desde el diseño (en PSeInt) de un problema hasta su implementación final en un lenguaje de programación formal (C).
+* **Enlace:** [Ver Tarea 2 APE (PDF)](../Tarea%20APE2.pdf)
 
 ---
 
