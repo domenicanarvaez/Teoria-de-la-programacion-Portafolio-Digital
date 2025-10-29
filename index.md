@@ -55,7 +55,7 @@ A continuación, se presenta el desglose de las unidades que componen este porta
 ¡El punto de partida! Contiene el desarrollo de los conceptos iniciales, algoritmos, pseudocódigo y las primeras tareas prácticas de la asignatura.
 
 > **➡️ Haz clic aquí para ver todo el contenido de la Unidad 1:**
-> ## **[🚀 Acceder a la Unidad 1](./Unidad1/)**
+> # **[🚀 Acceder a la Unidad 1](Unidad1.md)**
 
 *(Este enlace te llevará a la subcarpeta de la Unidad 1)*
 
