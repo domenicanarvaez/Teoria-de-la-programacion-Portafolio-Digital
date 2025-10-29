@@ -178,12 +178,12 @@ Tareas diseñadas para aplicar los conocimientos teóricos en escenarios prácti
 #### ⌨️ Tarea 1: Primer Acercamiento a Estructuras Secuenciales en Pseudocódigo
 
 * **Descripción:** Desarrollo de 1 algoritmo utilizando PSeInt que involucra únicamente estructuras secuenciales (cálculo del Índice de Masa Corporal (IMC)).
-* **Enlace:** [Ver Tarea 1 APE (PDF)](../Tarea%20APE1.pdf)
+* **Enlace:** [Ver Tarea 1 APE (PDF)](Tarea%20APE1.pdf)
 
 #### 🧬 Tarea 2: Del Diseño del Algoritmo a la Construcción del Programa
 
 * **Descripción:** Ejercicio completo que muestra el proceso desde el diseño (en PSeInt) de un problema hasta su implementación final en un lenguaje de programación formal (C).
-* **Enlace:** [Ver Tarea 2 APE (PDF)](../Tarea%20APE2.pdf)
+* **Enlace:** [Ver Tarea 2 APE (PDF)](Tarea%20APE2.pdf)
 
 ---
 
