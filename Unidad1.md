@@ -1,4 +1,4 @@
-[🔙 Volver a la Portada Principal](../README.md)
+[🔙 Volver a la Portada Principal](index.md)
 
 ## 🚀 UNIDAD 1: Fundamentos de la Programación y Algoritmos
 
@@ -187,4 +187,4 @@ Tareas diseñadas para aplicar los conocimientos teóricos en escenarios prácti
 
 ---
 
-[🔙 Volver a la Portada Principal](../README.md)
+[🔙 Volver a la Portada Principal](index.md)
