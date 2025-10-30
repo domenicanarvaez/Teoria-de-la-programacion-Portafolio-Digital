@@ -108,7 +108,7 @@ A continuación, se presenta el desglose de las unidades que componen este porta
 
 [4] 	C. K. POLO PEREZ, «Algorítmica y herramientas de algorítmicas,» UNIVERSIDAD NACIONAL DE EDUCACIÓN ENRIQUE GUZMÁN Y VALLE, Lima, 2021.
 
-[5] L. G. Lopez Faican, «Tarea 2: Informe de Instalación de C,"» UNIVERSIDAD NACIONAL DE LOJA, Loja, 2025. Accedido: 29 de octubre de 2025. [En línea]. Disponible: https://drive.google.com/file/d/14b3xwO87_64AZcFfP4zhrQYh2o5QYAjU/view
+[5]   L. G. Lopez F., “Fundamentos de Algoritmos y programas”. Consultado: el 28 de octubre de 2025. [En línea]. Disponible en: https://drive.google.com/file/d/1diDOqgiZcybY4RhGTRGTjPU8TyhqUMWf/view
 
 ---
 
