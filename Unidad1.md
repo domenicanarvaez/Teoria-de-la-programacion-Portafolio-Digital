@@ -102,36 +102,33 @@
    * **🗂️ Expresiones:**
    
      Son una combinación entre variables, constantes, operadores y paréntesis.
+     
      * **Tipos:**
+
+   **➕ Operadores aritméticos o matemáticos:**
        
-         * **🗣️ Operadores aritméticos o matemáticos:**
-           
-<p align="center"><img width="741" height="259" alt="image" src="https://github.com/user-attachments/assets/a71f6ba1-d691-455d-8d84-1378f6f8df30" />
+  <p align="center"><img width="741" height="259" alt="image" src="https://github.com/user-attachments/assets/a71f6ba1-d691-455d-8d84-1378f6f8df30" />
+  <p align="center"><em><b>Figura 2:</b> Operadores aritméticos o matemáticos [5].</em>
+  </p>
 
-<p align="center"><em><b>Figura 2:</b> Operadores aritméticos o matemáticos [5].</em>
-</p>
+  **↔️ Operadores relacionales:**
+        
+  <p align="center"><img width="767" height="230" alt="image" src="https://github.com/user-attachments/assets/41d5d0bc-ecf4-42f5-8227-b3e6f13bd702" />
+  <p align="center"><em><b>Figura 3:</b> Operadores relacionales [5].</em>
+  </p>
 
-         * **🗣️ Operadores relacionales:**
-         
-<p align="center"><img width="767" height="230" alt="image" src="https://github.com/user-attachments/assets/41d5d0bc-ecf4-42f5-8227-b3e6f13bd702" />
+  **💡 Operadores lógicos:**
+  
+  <p align="center"><img width="817" height="166" alt="image" src="https://github.com/user-attachments/assets/ff06985d-a104-4d2b-a54e-1549e8dd48f3" />
+  <p align="center"><em><b>Figura 4:</b> Operadores lógicos [5].</em>
+  </p>
 
-<p align="center"><em><b>Figura 3:</b> Operadores relacionales [5].</em>
-</p>
-
-         * **🗣️ Operadores lógicos:**
-         
-<p align="center"><img width="817" height="166" alt="image" src="https://github.com/user-attachments/assets/ff06985d-a104-4d2b-a54e-1549e8dd48f3" />
-
-<p align="center"><em><b>Figura 4:</b> Operadores lógicos [5].</em>
-</p>
-
-         * **Prioridad de resolución:**
-         
-<p align="center"><img width="645" height="296" alt="image" src="https://github.com/user-attachments/assets/163ab2cb-8dbc-45a3-a999-e2503563ae13" />
-
-<p align="center"><em><b>Figura 5:</b> Orden de resolución de los tipos de operadores [5].</em>
-</p>
-
+  **🥇 Prioridad de resolución:**
+  
+  <p align="center"><img width="645" height="296" alt="image" src="https://github.com/user-attachments/assets/163ab2cb-8dbc-45a3-a999-e2503563ae13" />
+  <p align="center"><em><b>Figura 5:</b> Orden de resolución de los tipos de operadores [5].</em>
+  </p>
+  
 ---
 
 **🎨 Formas de representar y verificar un algoritmo:**
@@ -199,10 +196,9 @@ Esta tabla resume las diferencias clave que aprendimos:
 
 | Característica | Lenguaje Compilado (ej. C) | Lenguaje Interpretado (ej. Python) |
 | :--- | :--- | :--- |
-| **Traducción** | Todo el código de una vez, **antes** de ejecutar. | Línea por línea, **durante** la ejecución. |
-| **Resultado** | Un archivo ejecutable (`.exe`). | Ninguno. El código siempre necesita el intérprete. |
-| **Velocidad** | Generalmente **más rápido** (ya está traducido). | Generalmente **más lento** (traduce sobre la marcha). |
-| **Portabilidad** | Menos portable (el `.exe` es para un S.O.). | Más portable (el código corre donde esté el intérprete). |
+| **Ejecución** | Posee la ventaja de **no necesitar un programa anexo** para ser ejecutado una vez compilado. | **Siempre necesita un programa anexo** (el intérpreprete) para funcionar. |
+| **Velocidad** | ⚡ Se vuelve **más rápido**, ya que la traducción se hizo una sola vez. | 🐢 Es **más lento**, porque traduce el código línea por línea en cada ejecución. |
+| **Flexibilidad** | Es **menos flexible**. Cada modificación en el archivo fuente requiere **volver a compilar** el programa para aplicar los cambios. | Es **más flexible**. Los cambios en el código se reflejan inmediatamente en la siguiente ejecución. |
 
 ---
 
@@ -263,6 +259,8 @@ Toda la lógica del programa debe escribirse dentro de la función principal `in
 
 Finalmente, la **terminal integrada** de VS Code nos permitió compilar el programa usando `gcc ./nombre_archivo.c -o nombre_archivo` y ejecutarlo con `./nombre_archivo.exe`, centralizando todo el ciclo de desarrollo en una sola interfaz.
 
+---
+
 #### ➡️ 4. Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales (PSeInt y VS Code)
 
 Son algoritmos directos, como una lista de tareas. Se ejecuta el paso 1, luego el 2, luego el 3, sin desvíos ni repeticiones.
@@ -275,7 +273,6 @@ A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (par
   * [Ver en PSeInt 💻](calculoAceleracion.psc)
   * [Ver en C 🔵](calculoAceleracion.c)
 
----
 
 #### 🔢 Ejemplo 2: Doble y Triple de un Número
 * **🗒️ Descripción:** Un ejercicio básico que lee un número ingresado por el usuario y simplemente muestra en pantalla cuál es su valor doble y su valor triple.
@@ -283,7 +280,6 @@ A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (par
   * [Ver en PSeInt 💻](dobleYTriple.psc)
   * [Ver en C 🔵](dobleYTriple.c)
 
----
 
 #### ✂️ Ejemplo 3: Descomposición de un Número Real
 * **🗒️ Descripción:** Este algoritmo toma un número con decimales (ej: `12.35`) y lo procesa para mostrar por separado su parte entera (`12`) y su parte decimal (`0.35`).
@@ -331,7 +327,6 @@ Actividades enfocadas en la auto-investigación, práctica y profundización de 
 * **🗒️ Descripción:** Informe con capturas de pantalla que evidencian la correcta instalación y configuración del entorno de desarrollo GCC para C y la ejecución del primer programa 'Hola Mundo'.
 * **🔗 Enlace:** [Ver Tarea 2 (PDF)](https://drive.google.com/file/d/15fUyBEn_aVvRdZ6SXHOGYWUv4eWIN-n6/view?usp=sharing)
 
----
 
 ### 🔬 2. Aprendizaje Práctico Experimental (APE)
 
