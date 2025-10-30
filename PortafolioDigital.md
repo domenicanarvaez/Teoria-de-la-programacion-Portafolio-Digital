@@ -46,8 +46,6 @@
 
 ---
 
----
-
 ## 🧭 Índice del Portafolio
 
 * [🎓 Carátula](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#-car%C3%A1tula)
@@ -74,7 +72,7 @@ A continuación, se presenta el desglose de las unidades que componen este porta
 ¡El punto de partida! Contiene el desarrollo de los conceptos iniciales, algoritmos, pseudocódigo y las primeras tareas prácticas de la asignatura.
 
 > **➡️ Haz clic aquí para ver todo el contenido de la Unidad 1:**
-> # **[🚀 Acceder a la Unidad 1](Unidad1.md)**
+> ### **[🚀 Acceder a la Unidad 1](Unidad1.md)**
 
 *(Este enlace te llevará a la subcarpeta de la Unidad 1)*
 
@@ -115,6 +113,6 @@ A continuación, se presenta el desglose de las unidades que componen este porta
 ### 🤖 Declaración de Uso de la IA Generativa
 
 > [!NOTE]
-> Se utilizó asistencia de herramientas de IA Generativa (Gemini de Google) para la **maquetación y generación de la estructura Markdown** de este portafolio. Todo el contenido académico, reflexiones, tareas, códigos y análisis de dificultades son de **autoría propia** y reflejan mi proceso de aprendizaje personal en la asignatura.
+> Se utilizó asistencia de herramientas de IA Generativa (Gemini de Google) para la maquetación y generación de la estructura Markdown de este portafolio. Todo el contenido académico, reflexiones, tareas, códigos y análisis de dificultades son de mi autoria y reflejan mi proceso de aprendizaje personal en la asignatura.
 
 ---
