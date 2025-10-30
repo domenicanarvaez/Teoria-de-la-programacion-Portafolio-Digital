@@ -12,112 +12,112 @@
 
 #### 🗺️ 1. Algoritmos, Pseudocódigo y Diagramas de Flujo
 
-> [Conceptos base]
-> * **Algoritmo:** La "receta" 🍳. Es una secuencia de pasos lógicos, finitos y claros que dan solución a un problema determinado.
->
-> **🗂️ Clasificación:**
-> * **🗣️ Cualitativos:** La descripción es a través de frases y palabras.
->   Ejemplo:
->   Algoritmo para la suma de dos números
->   1. Inicio.
->   2. Obtener el primer número.
->   3. Obtener el segundo número.
->   4. Sumar los dos números.
->   5. Mostrar el resultado de la suma.
->   6. Fin.
-> * **🔢 Cuantitativos:** Implica el uso de cálculos o fórmulas matemáticas.
->   Ejemplo:
->   Preparar una taza de café
->   1. Inicio.
->   2. Toma una taza y una cucharada.
->   3. Pon café instantáneo en la taza.
->   4. Hierve agua en una tetera.
->   5. Vierte el agua caliente en la taza, sin llenarla por completo.
->   6. Remueve con la cucharada hasta disolver el café.
->   7. Añade azúcar o leche al gusto.
->   8. Fin.
->
-> **🧩 Partes:**
-> * **📥 Las entradas:** se refiere a todos los datos, valores, variables o constantes iniciales que el algoritmo necesita para empezar a trabajar.
->   
->   * **🧩 Tipos de datos para las entradas:**
->     Un dato es una cifra, letra, palabra... que se suministra a la computadora como entrada y la máquina almacena en un determinado formato
->     Datos simples:
->      * **Enteros (int):** valores que NO tienen punto decimal o flotante y pueden ser positivos o negativos.
->      * **Reales (float o double):** valores que SI tienen punto decimal o flotante y pueden ser positivos o negativos.
->      * **Carácter (char):** conformado por un solo carácter que va entre comillas y pueden ser letras, números, signos o símbolos.
->      * **Lógicos (boolean):** solo se almacenan dos tipos de datos: falso o verdadero.
->     Datos compuestos:
->      * **Cadenas (string):** combinación de los caracteres forma una cadena.
->   
->   * **🧩 Identificadores:**
->     Es un nombre asociado a un objeto de programa, puede ser una variable, una constante, una función...
->      * **Variables:**
->        Guardan un valor, que puede ser modificado durante la ejecución del programa. Se declaran al inicio del programa, y antes de que se utilicen en las operaciones. Deben poseer un nombre. tipo de dato y valor inicial (opcional).
->      * **Constantes:**
->        Guardan un valor, pero que NO van a cambiar durante la ejecución del programa. Se escribe en MAYÚSCULAS.
->
->   * **🧩 Asignación:** Es la acción de darle valor a una variable o constante. Se utiliza el signo ← o = como símbolo de asignación.
->     Ejemplo: nota1 ← 5
->              suma ← valor1 + valor2
->     
-> *En PseInt se usa el comando "Leer variable", para que los usuarios ingresen datos*
->
-> * **⚙️ Los procesos:** es el conjunto de pasos, instrucciones o procedimientos lógicos que el algoritmo sigue para manipular los datos de entrada y transformarlos en el resultado deseado.
->
-> * **📤 Las salidas:** es el resultado final o la solución que produce el algoritmo después de haber ejecutado todo el proceso.
-> *En PseInt se usa el comando "Escribir", para mostrar a los usuarios los resultados*
->
-><p align="center"><img width="409" height="103" alt="image" src="https://github.com/user-attachments/assets/285ff54e-7747-4192-9c37-cd9f4e02b50a" />
->
-><p align="center"><em><b>Figura 1:</b> Partes de un algoritmo.</em>
-></p>
->***Nota: los comentarios de codificación son mensajes que sirven para documentar el código. No son tomados en cuenta al momento de ejecutarse el algoritmo.***
->
-> **🗂️ Expresiones:**
-> Son una combinación entre variables, constantes, operadores y paréntesis.
-> **Tipos:**
-> * **🗣️ Operadores aritméticos o matemáticos:**
-><p align="center"><img width="741" height="259" alt="image" src="https://github.com/user-attachments/assets/a71f6ba1-d691-455d-8d84-1378f6f8df30" />
->
-><p align="center"><em><b>Tabla 1:</b> Operadores aritméticos o matemáticos.</em>
-></p>
->
-> * **🗣️ Operadores relacionales:**
-><p align="center"><img width="767" height="230" alt="image" src="https://github.com/user-attachments/assets/41d5d0bc-ecf4-42f5-8227-b3e6f13bd702" />
->
-><p align="center"><em><b>Tabla 2:</b> Operadores relacionales.</em>
-></p>
->
-> * **🗣️ Operadores lógicos:**
-><p align="center"><img width="817" height="166" alt="image" src="https://github.com/user-attachments/assets/ff06985d-a104-4d2b-a54e-1549e8dd48f3" />
->
-><p align="center"><em><b>Tabla 3:</b> Operadores lógicos.</em>
-></p>
->
->**Prioridad de resolución:**
-><p align="center"><img width="645" height="296" alt="image" src="https://github.com/user-attachments/assets/163ab2cb-8dbc-45a3-a999-e2503563ae13" />
->
-><p align="center"><em><b>Tabla 4:</b>Orden de resolución de los tipos de operadores.</em>
-></p>
->
->---
->
->**🎨 Formas de representar un algoritmo:**
->
->* **Pseudocódigo:** El "borrador" 📝. Son instrucciones escritas bajo cierta estructura y reglas que inducirán a los principiantes hacia los lenguajes de programación. Consiste en escribir el algoritmo en un lenguaje simple, casi humano, pero estructurado.
->    
->    👉 Ejemplo: [Haz clic para ver un ejemplo de pseudocódigo](./EjemploPseudocódigo.md)>
->    
->* **Diagrama de Flujo:** El "mapa" 🗺️. Utiliza símbolos y describen las instrucciones que debe seguir el algoritmo.
->    
->    👉 Ejemplo: [Haz clic para ver un ejemplo de diagrama de flujo](./EjemploDiagrama.md)
->
-><p align="center"><img width="568" height="624" alt="image" src="https://github.com/user-attachments/assets/f5af823b-d4cd-4b3b-831d-5906485720ae" />
->
-><p align="center"><em><b>Tabla 5:</b> Símbolos más usados para representar algoritmos.</em>
-></p>
+Conceptos base
+ * **Algoritmo:** La "receta" 🍳. Es una secuencia de pasos lógicos, finitos y claros que dan solución a un problema determinado.
 
+ **🗂️ Clasificación:**
+ * **🗣️ Cualitativos:** La descripción es a través de frases y palabras.
+   Ejemplo:
+   Algoritmo para la suma de dos números
+   1. Inicio.
+   2. Obtener el primer número.
+   3. Obtener el segundo número.
+   4. Sumar los dos números.
+   5. Mostrar el resultado de la suma.
+   6. Fin.
+ * **🔢 Cuantitativos:** Implica el uso de cálculos o fórmulas matemáticas.
+   Ejemplo:
+   Preparar una taza de café
+   1. Inicio.
+   2. Toma una taza y una cucharada.
+   3. Pon café instantáneo en la taza.
+   4. Hierve agua en una tetera.
+   5. Vierte el agua caliente en la taza, sin llenarla por completo.
+   6. Remueve con la cucharada hasta disolver el café.
+   7. Añade azúcar o leche al gusto.
+   8. Fin.
+
+ **🧩 Partes:**
+ * **📥 Las entradas:** se refiere a todos los datos, valores, variables o constantes iniciales que el algoritmo necesita para empezar a trabajar.
+   
+   * **🧩 Tipos de datos para las entradas:**
+     Un dato es una cifra, letra, palabra... que se suministra a la computadora como entrada y la máquina almacena en un determinado formato
+     Datos simples:
+      * **Enteros (int):** valores que NO tienen punto decimal o flotante y pueden ser positivos o negativos.
+      * **Reales (float o double):** valores que SI tienen punto decimal o flotante y pueden ser positivos o negativos.
+      * **Carácter (char):** conformado por un solo carácter que va entre comillas y pueden ser letras, números, signos o símbolos.
+      * **Lógicos (boolean):** solo se almacenan dos tipos de datos: falso o verdadero.
+     Datos compuestos:
+      * **Cadenas (string):** combinación de los caracteres forma una cadena.
+   
+   * **🧩 Identificadores:**
+     Es un nombre asociado a un objeto de programa, puede ser una variable, una constante, una función...
+      * **Variables:**
+        Guardan un valor, que puede ser modificado durante la ejecución del programa. Se declaran al inicio del programa, y antes de que se utilicen en las operaciones. Deben poseer un nombre. tipo de dato y valor inicial (opcional).
+      * **Constantes:**
+        Guardan un valor, pero que NO van a cambiar durante la ejecución del programa. Se escribe en MAYÚSCULAS.
+
+   * **🧩 Asignación:** Es la acción de darle valor a una variable o constante. Se utiliza el signo ← o = como símbolo de asignación.
+     Ejemplo: nota1 ← 5
+              suma ← valor1 + valor2
+     
+*En PseInt se usa el comando "Leer variable", para que los usuarios ingresen datos*
+
+* **⚙️ Los procesos:** es el conjunto de pasos, instrucciones o procedimientos lógicos que el algoritmo sigue para manipular los datos de entrada y transformarlos en el resultado deseado.
+
+* **📤 Las salidas:** es el resultado final o la solución que produce el algoritmo después de haber ejecutado todo el proceso.
+*En PseInt se usa el comando "Escribir", para mostrar a los usuarios los resultados*
+
+<p align="center"><img width="409" height="103" alt="image" src="https://github.com/user-attachments/assets/285ff54e-7747-4192-9c37-cd9f4e02b50a" />
+
+<p align="center"><em><b>Figura 1:</b> Partes de un algoritmo.</em>
+</p>
+***Nota: los comentarios de codificación son mensajes que sirven para documentar el código. No son tomados en cuenta al momento de ejecutarse el algoritmo.***
+
+ **🗂️ Expresiones:**
+ Son una combinación entre variables, constantes, operadores y paréntesis.
+ **Tipos:**
+ * **🗣️ Operadores aritméticos o matemáticos:**
+<p align="center"><img width="741" height="259" alt="image" src="https://github.com/user-attachments/assets/a71f6ba1-d691-455d-8d84-1378f6f8df30" />
+
+<p align="center"><em><b>Tabla 1:</b> Operadores aritméticos o matemáticos.</em>
+</p>
+
+ * **🗣️ Operadores relacionales:**
+<p align="center"><img width="767" height="230" alt="image" src="https://github.com/user-attachments/assets/41d5d0bc-ecf4-42f5-8227-b3e6f13bd702" />
+
+<p align="center"><em><b>Tabla 2:</b> Operadores relacionales.</em>
+</p>
+
+ * **🗣️ Operadores lógicos:**
+<p align="center"><img width="817" height="166" alt="image" src="https://github.com/user-attachments/assets/ff06985d-a104-4d2b-a54e-1549e8dd48f3" />
+
+<p align="center"><em><b>Tabla 3:</b> Operadores lógicos.</em>
+</p>
+
+**Prioridad de resolución:**
+<p align="center"><img width="645" height="296" alt="image" src="https://github.com/user-attachments/assets/163ab2cb-8dbc-45a3-a999-e2503563ae13" />
+
+<p align="center"><em><b>Tabla 4:</b>Orden de resolución de los tipos de operadores.</em>
+</p>
+
+---
+
+**🎨 Formas de representar y verificar un algoritmo:**
+
+* **Pseudocódigo:** El "borrador" 📝. Son instrucciones escritas bajo cierta estructura y reglas que inducirán a los principiantes hacia los lenguajes de programación. Consiste en escribir el algoritmo en un lenguaje simple, casi humano, pero estructurado.
+    
+* **Diagrama de Flujo:** El "mapa" 🗺️. Utiliza símbolos y describen las instrucciones que debe seguir el algoritmo.
+    
+<p align="center"><img width="568" height="624" alt="image" src="https://github.com/user-attachments/assets/f5af823b-d4cd-4b3b-831d-5906485720ae" />
+
+<p align="center"><em><b>Tabla 5:</b> Símbolos más usados para representar algoritmos.</em>
+</p>
+
+* **Pruebas de escritorio:** Consisten en simular datos de entrada, para comprobar que los resultados sean correctos. Dado el caso de que no coincidan los datos se debe revisar el análisis del problema y el código del algoritmo para aplicar las respectivas correcciones y repetir la prueba de escritorio hasta obtener los datos de salida esperados o correctos.
+
+  👉 Ejemplo: [Ejemplo empleando los tres elemtos revisados en esta sección.](./EjemploDiagrama.md)
+  
 ---
 
 #### 🧩 2. Programación por Bloques
@@ -144,6 +144,8 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
 
 ---
 
+#### ➡️ 3. Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales
+
 **🛠️ Herramienta usada: PSeInt**
 
 <p align="center">
@@ -156,7 +158,7 @@ PSeInt fue una de las herramientas usadas dentro de la unidad. Es un software ed
 
 ---
 
-#### ➡️ 3. Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales
+#### ➡️ 4. Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales
 
 Son algoritmos directos, como una lista de tareas. Se ejecuta el paso 1, luego el 2, luego el 3, sin desvíos ni repeticiones.
 
@@ -186,7 +188,7 @@ A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (par
 
 ---
 
-### 🚧 4. Principales Dificultades en la Aplicación
+### 🚧 5. Principales Dificultades en la Aplicación
 
 Durante el desarrollo de los trabajos de esta unidad, me encontré con algunas dificultades:
 
@@ -197,7 +199,7 @@ Durante el desarrollo de los trabajos de esta unidad, me encontré con algunas d
 
 ---
 
-### 💡 5. Reflexión Crítica de los Aprendizajes
+### 💡 6. Reflexión Crítica de los Aprendizajes
 
 Al terminar esta primera unidad, mi mayor aprendizaje es darme cuenta de que la programación no se trata de memorizar comandos de un lenguaje, sino de saber cómo pensar y diseñar una solución antes de escribir la primera línea de código.
 
