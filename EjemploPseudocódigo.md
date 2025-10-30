@@ -1,4 +1,5 @@
 ## 🗺️ Algoritmo:
+
 Algoritmo sumaDeDosNumeros
 
 	//Variables
@@ -21,6 +22,7 @@ Algoritmo sumaDeDosNumeros
 FinAlgoritmo
 
 ## 🧩 Diagrama de flujo:
+
 <p align="center"><img width="225" height="381" alt="image" src="https://github.com/user-attachments/assets/6e946786-1723-4d1f-ada7-13a19ca03c29" />
 
 <p align="center"><em><b></b> Diagrama de flujo para sumar dos números.</em>
