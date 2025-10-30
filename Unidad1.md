@@ -80,9 +80,9 @@
 
               Ejemplo:
 
-              `nota1 ← 5
+              `nota1 ← 5`
 
-              suma ← valor1 + valor2`
+              `suma ← valor1 + valor2`
 
               **Nota:** En PseInt se usa el comando "`Leer` variable", para que los usuarios ingresen/asignen datos.
 
@@ -108,40 +108,41 @@
            
 <p align="center"><img width="741" height="259" alt="image" src="https://github.com/user-attachments/assets/a71f6ba1-d691-455d-8d84-1378f6f8df30" />
 
-<p align="center"><em><b>Figura 2:</b> Operadores aritméticos o matemáticos.</em>
+<p align="center"><em><b>Figura 2:</b> Operadores aritméticos o matemáticos [5].</em>
 </p>
 
          * **🗣️ Operadores relacionales:**
          
 <p align="center"><img width="767" height="230" alt="image" src="https://github.com/user-attachments/assets/41d5d0bc-ecf4-42f5-8227-b3e6f13bd702" />
 
-<p align="center"><em><b>Figura 3:</b> Operadores relacionales.</em>
+<p align="center"><em><b>Figura 3:</b> Operadores relacionales [5].</em>
 </p>
 
          * **🗣️ Operadores lógicos:**
          
 <p align="center"><img width="817" height="166" alt="image" src="https://github.com/user-attachments/assets/ff06985d-a104-4d2b-a54e-1549e8dd48f3" />
 
-<p align="center"><em><b>Figura 4:</b> Operadores lógicos.</em>
+<p align="center"><em><b>Figura 4:</b> Operadores lógicos [5].</em>
 </p>
 
          * **Prioridad de resolución:**
+         
 <p align="center"><img width="645" height="296" alt="image" src="https://github.com/user-attachments/assets/163ab2cb-8dbc-45a3-a999-e2503563ae13" />
 
-<p align="center"><em><b>Figura 5:</b>Orden de resolución de los tipos de operadores.</em>
+<p align="center"><em><b>Figura 5:</b> Orden de resolución de los tipos de operadores [5].</em>
 </p>
 
 ---
 
 **🎨 Formas de representar y verificar un algoritmo:**
 
-* **Pseudocódigo:** El "borrador" 📝. Son instrucciones escritas bajo cierta estructura y reglas que inducirán a los principiantes hacia los lenguajes de programación. Consiste en escribir el algoritmo en un lenguaje simple, casi humano, pero estructurado.
+* **Pseudocódigo 📝:** Son instrucciones escritas bajo cierta estructura y reglas que inducirán a los principiantes hacia los lenguajes de programación. Consiste en escribir el algoritmo en un lenguaje simple, casi humano, pero estructurado.
     
-* **Diagrama de Flujo:** El "mapa" 🗺️. Utiliza símbolos y describen las instrucciones que debe seguir el algoritmo.
+* **Diagrama de Flujo 🗺️:** Utiliza símbolos y describen las instrucciones que debe seguir el algoritmo.
     
 <p align="center"><img width="568" height="624" alt="image" src="https://github.com/user-attachments/assets/f5af823b-d4cd-4b3b-831d-5906485720ae" />
 
-<p align="center"><em><b>Figura 6:</b> Símbolos más usados para representar algoritmos.</em>
+<p align="center"><em><b>Figura 6:</b> Símbolos más usados para representar algoritmos [5].</em>
 </p>
 
 * **Pruebas de escritorio:** Consisten en simular datos de entrada, para comprobar que los resultados sean correctos. Dado el caso de que no coincidan los datos se debe revisar el análisis del problema y el código del algoritmo para aplicar las respectivas correcciones y repetir la prueba de escritorio hasta obtener los datos de salida esperados o correctos.
@@ -152,9 +153,9 @@
 
 ### 🤖 Algoritmo vs. Programa
 
-* **Algoritmo:** Es la **idea** lógica y la secuencia de pasos finitos para resolver un problema. Es el "plano" o la "receta".
+* **Algoritmo:** Es la **idea** lógica y la secuencia de pasos finitos para resolver un problema. 
   
-* **Programa (Software):** Es la **implementación** de ese algoritmo. Es un conjunto de instrucciones escritas en un lenguaje de programación específico (como C) que una computadora puede entender y ejecutar.
+* **Programa (Software):** Es la **implementación** de un algoritmo. Es un conjunto de instrucciones escritas en un lenguaje de programación específico (como C) que una computadora puede entender y ejecutar.
 
 **El Flujo de Creación (De la Idea al Software):**
 
@@ -165,7 +166,8 @@
 ### 📚 Lenguajes de Programación
 
 #### Lenguaje de Alto Nivel
-Es un lenguaje (como C, Python, Java) que utiliza una sintaxis similar al lenguaje humano, lo que facilita su escritura y lectura. Oculta la complejidad del hardware (el "bajo nivel") y nos permite enfocarnos en la lógica del problema.
+
+Es un lenguaje (como C, Python, Java) que utiliza una sintaxis similar al lenguaje humano, lo que facilita su escritura y lectura. Oculta la complejidad del hardware (el "bajo nivel") y nos permite enfocarnos en la lógica del problema. Los programas escritos en este lenguaje se llaman programa fuente.
 
 Sus dos categorías principales de ejecución son:
 
@@ -173,15 +175,18 @@ Sus dos categorías principales de ejecución son:
 2.  **Lenguajes Interpretados** (Ej: Python, JavaScript)
 
 #### ⚙️ Lenguaje Compilado
-Un lenguaje compilado requiere un programa llamado **compilador** (en nuestro caso, `gcc`) que traduce *todo* el código fuente en un solo paso, creando un archivo ejecutable que la computadora puede correr directamente.
 
-**Proceso de Compilación:**
-> **Código Fuente (`.c`)** ➡️ **Compilador (`gcc`)** ➡️ **Programa Objeto (`.o`)** ➡️ **Código Ejecutable (`.exe`)**
+Un lenguaje compilado requiere un programa llamado **compilador** (en lenguaje c es, `gcc`) que traduce todo el código fuente (en un solo paso) a uno llamado programa objeto, un archivo ejecutable que la computadora puede correr directamente.
+
+**Proceso de Compilación (con C):**
+> **Programa Fuente (código fuente: `.c`)** ➡️ **Compilador (`gcc .\(nombre del archivo).c -o (nombre del archivo)`)** ➡️ **Programa Objeto (código ejecutable: `.\(nombre del archivo).exe`)**
 
 #### 🏃‍♂️ Lenguaje Interpretado
-Requiere un programa auxiliar llamado **intérprete**. En lugar de crear un archivo ejecutable, el intérprete lee y ejecuta el código fuente *línea por línea*, traduciendo y ejecutando sobre la marcha.
+
+Requiere un programa auxiliar llamado **intérprete**. En lugar de crear un archivo ejecutable, el intérprete lee y ejecuta el código fuente **línea por línea**, traduciendo y ejecutando el programa en tiempo real.
 
 **Proceso de Interpretación:**
+
 1.  Se traduce una instrucción del código fuente.
 2.  Se ejecuta dicha instrucción.
 3.  Se repite el proceso (1 y 2) con todas las instrucciones del código.
