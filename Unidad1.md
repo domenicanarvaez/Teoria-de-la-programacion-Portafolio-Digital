@@ -17,17 +17,22 @@ Conceptos base
 
  **🗂️ Clasificación:**
  * **🗣️ Cualitativos:** La descripción es a través de frases y palabras.
+
    Ejemplo:
-   Algoritmo para la suma de dos números
+   
+   **Algoritmo para la suma de dos números**
    1. Inicio.
    2. Obtener el primer número.
    3. Obtener el segundo número.
    4. Sumar los dos números.
    5. Mostrar el resultado de la suma.
    6. Fin.
+   
  * **🔢 Cuantitativos:** Implica el uso de cálculos o fórmulas matemáticas.
+
    Ejemplo:
-   Preparar una taza de café
+
+   **Preparar una taza de café**
    1. Inicio.
    2. Toma una taza y una cucharada.
    3. Pon café instantáneo en la taza.
@@ -42,23 +47,32 @@ Conceptos base
    
    * **🧩 Tipos de datos para las entradas:**
      Un dato es una cifra, letra, palabra... que se suministra a la computadora como entrada y la máquina almacena en un determinado formato
+
      Datos simples:
+     
       * **Enteros (int):** valores que NO tienen punto decimal o flotante y pueden ser positivos o negativos.
       * **Reales (float o double):** valores que SI tienen punto decimal o flotante y pueden ser positivos o negativos.
       * **Carácter (char):** conformado por un solo carácter que va entre comillas y pueden ser letras, números, signos o símbolos.
       * **Lógicos (boolean):** solo se almacenan dos tipos de datos: falso o verdadero.
+        
      Datos compuestos:
+     
       * **Cadenas (string):** combinación de los caracteres forma una cadena.
    
    * **🧩 Identificadores:**
      Es un nombre asociado a un objeto de programa, puede ser una variable, una constante, una función...
+     
       * **Variables:**
         Guardan un valor, que puede ser modificado durante la ejecución del programa. Se declaran al inicio del programa, y antes de que se utilicen en las operaciones. Deben poseer un nombre. tipo de dato y valor inicial (opcional).
       * **Constantes:**
         Guardan un valor, pero que NO van a cambiar durante la ejecución del programa. Se escribe en MAYÚSCULAS.
 
    * **🧩 Asignación:** Es la acción de darle valor a una variable o constante. Se utiliza el signo ← o = como símbolo de asignación.
-     Ejemplo: nota1 ← 5
+
+     Ejemplo:
+
+              nota1 ← 5
+
               suma ← valor1 + valor2
      
 *En PseInt se usa el comando "Leer variable", para que los usuarios ingresen datos*
@@ -66,39 +80,43 @@ Conceptos base
 * **⚙️ Los procesos:** es el conjunto de pasos, instrucciones o procedimientos lógicos que el algoritmo sigue para manipular los datos de entrada y transformarlos en el resultado deseado.
 
 * **📤 Las salidas:** es el resultado final o la solución que produce el algoritmo después de haber ejecutado todo el proceso.
+  
 *En PseInt se usa el comando "Escribir", para mostrar a los usuarios los resultados*
 
 <p align="center"><img width="409" height="103" alt="image" src="https://github.com/user-attachments/assets/285ff54e-7747-4192-9c37-cd9f4e02b50a" />
 
 <p align="center"><em><b>Figura 1:</b> Partes de un algoritmo.</em>
 </p>
+
 ***Nota: los comentarios de codificación son mensajes que sirven para documentar el código. No son tomados en cuenta al momento de ejecutarse el algoritmo.***
 
  **🗂️ Expresiones:**
  Son una combinación entre variables, constantes, operadores y paréntesis.
+ 
  **Tipos:**
+ 
  * **🗣️ Operadores aritméticos o matemáticos:**
 <p align="center"><img width="741" height="259" alt="image" src="https://github.com/user-attachments/assets/a71f6ba1-d691-455d-8d84-1378f6f8df30" />
 
-<p align="center"><em><b>Tabla 1:</b> Operadores aritméticos o matemáticos.</em>
+<p align="center"><em><b>Figura 2:</b> Operadores aritméticos o matemáticos.</em>
 </p>
 
  * **🗣️ Operadores relacionales:**
 <p align="center"><img width="767" height="230" alt="image" src="https://github.com/user-attachments/assets/41d5d0bc-ecf4-42f5-8227-b3e6f13bd702" />
 
-<p align="center"><em><b>Tabla 2:</b> Operadores relacionales.</em>
+<p align="center"><em><b>Figura 3:</b> Operadores relacionales.</em>
 </p>
 
  * **🗣️ Operadores lógicos:**
 <p align="center"><img width="817" height="166" alt="image" src="https://github.com/user-attachments/assets/ff06985d-a104-4d2b-a54e-1549e8dd48f3" />
 
-<p align="center"><em><b>Tabla 3:</b> Operadores lógicos.</em>
+<p align="center"><em><b>Figura 4:</b> Operadores lógicos.</em>
 </p>
 
 **Prioridad de resolución:**
 <p align="center"><img width="645" height="296" alt="image" src="https://github.com/user-attachments/assets/163ab2cb-8dbc-45a3-a999-e2503563ae13" />
 
-<p align="center"><em><b>Tabla 4:</b>Orden de resolución de los tipos de operadores.</em>
+<p align="center"><em><b>Figura 5:</b>Orden de resolución de los tipos de operadores.</em>
 </p>
 
 ---
@@ -111,7 +129,7 @@ Conceptos base
     
 <p align="center"><img width="568" height="624" alt="image" src="https://github.com/user-attachments/assets/f5af823b-d4cd-4b3b-831d-5906485720ae" />
 
-<p align="center"><em><b>Tabla 5:</b> Símbolos más usados para representar algoritmos.</em>
+<p align="center"><em><b>Figura 6:</b> Símbolos más usados para representar algoritmos.</em>
 </p>
 
 * **Pruebas de escritorio:** Consisten en simular datos de entrada, para comprobar que los resultados sean correctos. Dado el caso de que no coincidan los datos se debe revisar el análisis del problema y el código del algoritmo para aplicar las respectivas correcciones y repetir la prueba de escritorio hasta obtener los datos de salida esperados o correctos.
@@ -120,45 +138,114 @@ Conceptos base
   
 ---
 
+### 🤖 Algoritmo vs. Programa
+
+* **Algoritmo:** Es la *idea* lógica y la secuencia de pasos finitos para resolver un problema. Es el "plano" o la "receta".
+* **Programa (Software):** Es la *implementación* de ese algoritmo. Es un conjunto de instrucciones escritas en un lenguaje de programación específico (como C) que una computadora puede entender y ejecutar.
+
+**El Flujo de Creación (De la Idea al Software):**
+
+> **Problema** ➡️ **Algoritmo** (Diseño lógico) ➡️ **Código Fuente** (Escritura en C) ➡️ **Compilación** ➡️ **Código Máquina** ➡️ **Programa (Software)**
+
+---
+
+### 📚 Lenguajes de Programación
+
+#### Lenguaje de Alto Nivel
+Es un lenguaje (como C, Python, Java) que utiliza una sintaxis similar al lenguaje humano, lo que facilita su escritura y lectura. Oculta la complejidad del hardware (el "bajo nivel") y nos permite enfocarnos en la lógica del problema.
+
+Sus dos categorías principales de ejecución son:
+
+1.  **Lenguajes Compilados** (Ej: C, C++)
+2.  **Lenguajes Interpretados** (Ej: Python, JavaScript)
+
+#### ⚙️ Lenguaje Compilado
+Un lenguaje compilado requiere un programa llamado **compilador** (en nuestro caso, `gcc`) que traduce *todo* el código fuente en un solo paso, creando un archivo ejecutable que la computadora puede correr directamente.
+
+**Proceso de Compilación:**
+> **Código Fuente (`.c`)** ➡️ **Compilador (`gcc`)** ➡️ **Programa Objeto (`.o`)** ➡️ **Código Ejecutable (`.exe`)**
+
+#### 🏃‍♂️ Lenguaje Interpretado
+Requiere un programa auxiliar llamado **intérprete**. En lugar de crear un archivo ejecutable, el intérprete lee y ejecuta el código fuente *línea por línea*, traduciendo y ejecutando sobre la marcha.
+
+**Proceso de Interpretación:**
+1.  Se traduce una instrucción del código fuente.
+2.  Se ejecuta dicha instrucción.
+3.  Se repite el proceso (1 y 2) con todas las instrucciones del código.
+
+---
+
+### ⚖️ Compilado vs. Interpretado (Contraste)
+
+Esta tabla resume las diferencias clave que aprendimos:
+
+| Característica | Lenguaje Compilado (ej. C) | Lenguaje Interpretado (ej. Python) |
+| :--- | :--- | :--- |
+| **Traducción** | Todo el código de una vez, **antes** de ejecutar. | Línea por línea, **durante** la ejecución. |
+| **Resultado** | Un archivo ejecutable (`.exe`). | Ninguno. El código siempre necesita el intérprete. |
+| **Velocidad** | Generalmente **más rápido** (ya está traducido). | Generalmente **más lento** (traduce sobre la marcha). |
+| **Portabilidad** | Menos portable (el `.exe` es para un S.O.). | Más portable (el código corre donde esté el intérprete). |
+
+---
+
 #### 🧩 2. Programación por Bloques
 
 Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de programación. Usamos herramientas como:
 
 * **🎮 Blocky Games:** Sirve para enseñar programación a principiantes mediante diversos juegos interactivos, por ejemplo el uso de bloques visuales que se encajan, en lugar de código escrito. El objetivo es aprender la lógica de la programación de forma divertida y sin frustración.
+  
   - [Blocky Games](https://blockly.games/?lang=en)
+
     En esta imagen se observa los juegos con los que cuenta este softwar, estos desafíos nos ayudan a formar una base para entrar a la lógica de programación.
+    
 <p align="center">
 <img width="886" height="444" alt="image" src="https://github.com/user-attachments/assets/db419a71-7b12-42e3-a44b-d3eb428bab18" />
   <br>
-  <em><b>Figura 3:</b> Desafíos de Blocky Games.</em>
+  <em><b>Figura 7:</b> Desafíos de Blocky Games.</em>
 </p>
 
 * **🧱 Pilas Bloques:** Sirve para entender bucles, condicionales y eventos de una manera visual e intuitiva. Sin la frustración de la sintaxis.
+  
   - [Pilas Bloques](https://pilasbloques.program.ar/online/#/)
+
     A diferencia de "Blocky Games" esta herramienta tiene un solo tipo de juego que son los laberintos, los cuales cuentan con tres niveles: Principiante, Intermedio y Avanzado.
+    
 <p align="center">
   <img width="1917" height="969" alt="image" src="https://github.com/user-attachments/assets/0ae3b062-a8ee-4a7e-9ebc-3d00623565bb" />
   <br>
-  <em><b>Figura 4:</b> Desafíos de Pilas Bloques</em>
+  <em><b>Figura 8:</b> Desafíos de Pilas Bloques</em>
 </p>
 
 ---
 
 #### ➡️ 3. Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales
 
-**🛠️ Herramienta usada: PSeInt**
+**🛠️ Herramienta usadas:**
+ **1. PSeInt**
 
 <p align="center">
 <img width="140" height="146" alt="image" src="https://github.com/user-attachments/assets/0e048d5c-9191-47fd-9eac-832c0132850f" />
 
-<p align="center"><em><b>Figura 3:</b> Logo PSeInt.</em>
+<p align="center"><em><b>Figura 9:</b> Logo PSeInt.</em>
 </p>
 
-PSeInt fue una de las herramientas usadas dentro de la unidad. Es un software educativo gratuito que ayuda a los principiantes a aprender la lógica de programación. Utiliza un pseudocódigo sencillo e intuitivo en español para que los estudiantes puedan crear y entender algoritmos sin tener que lidiar con la compleja sintaxis de un lenguaje de programación real.
+PSeInt fue la herramienta fundamental para construir y probar nuestra lógica de programación. Es un software educativo diseñado específicamente para aprender los fundamentos de la algoritmia utilizando un **pseudocódigo** estructurado en español. Su función principal fue permitirnos diseñar soluciones algoritmos enfocándonos puramente en la lógica de **Entrada, Proceso y Salida,** sin la complejidad sintáctica de un lenguaje formal. Lo más útil fue su intérprete, que nos obligaba a seguir reglas sintácticas simples (como definir variables o usar `Escribir` y `Leer`), detectando errores lógicos al instante. Además, PSeInt nos permitió **generar y visualizar diagramas de flujo** automáticamente a partir de nuestro pseudocódigo, ayudándonos a entender la secuencia y el flujo de las instrucciones de una manera gráfica.
 
----
+ **2. Visual Studio Code (lenguaje C)**
 
-#### ➡️ 4. Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales
+<p align="center">
+ <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/4330edfd-e0f6-43de-ab1d-7258370981f3" />
+
+<p align="center"><em><b>Figura 10:</b> Logo PSeInt.</em>
+</p>
+
+Visual Studio Code (VS Code) fue el entorno de desarrollo que utilizamos para programar en el lenguaje de alto nivel C. Como editor de código, su función principal fue facilitarnos la escritura del código fuente, el cual debe guardarse obligatoriamente con la extensión `.c`. Para que un programa en C funcione, aprendimos que es fundamental incluir **librerías** usando la directiva `#include`. Estas librerías (archivos `.h`) proveen funciones esenciales, siendo la librería base `#include <stdio.h>` la más importante, ya que contiene las funciones de entrada y salida.
+
+Toda la lógica del programa debe escribirse dentro de la función principal `int main() { ... }`, que es el punto de inicio de la ejecución. Dentro de esta función, definimos variables con sus tipos de datos (como `int`, `char`, `float` o `double`) y cada instrucción debe finalizar obligatoriamente con un punto y coma (`;`). Para la entrada y salida, en lugar de `Leer` y `Escribir` de PSeInt, usamos `printf()` para mostrar datos y `scanf()` para leerlos. Ambas funciones requieren **"máscaras"** (especificadores de formato) para saber qué tipo de dato manejar, como `%d` para enteros, `%f` para flotantes, `%c` para caracteres o `%s` para cadenas. Un detalle crucial de `scanf()` es que exige el uso del ampersand (`&`)antes del nombre de la variable para poder guardar el dato en su dirección de memoria.
+
+Finalmente, la **terminal integrada** de VS Code nos permitió compilar el programa usando `gcc ./nombre_archivo.c -o nombre_archivo` y ejecutarlo con `./nombre_archivo.exe`, centralizando todo el ciclo de desarrollo en una sola interfaz.
+
+#### ➡️ 4. Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales (PSeInt y VS Code)
 
 Son algoritmos directos, como una lista de tareas. Se ejecuta el paso 1, luego el 2, luego el 3, sin desvíos ni repeticiones.
 
@@ -193,21 +280,22 @@ A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (par
 Durante el desarrollo de los trabajos de esta unidad, me encontré con algunas dificultades:
 
 * En PSeInt, al principio fue algo difícil aprender a "traducir" el enunciado de un problema a un pseudocódigo estructurado. Era confuso diferenciar claramente qué datos debía pedir (Entrada).
+  
 * Al programar en C, se me complicó recordar los especificadores de formato (`%f`, `%d`) y también cómo y cuándo usarlos.
+  
 * En C es un poco más complicado ejecutar el programa, porque primero hay que compilar y luego ejecutar, usando dos comandos específicos para cada acción.
+  
 * Pude notar que PSeInt te avisa de un error de sintaxis casi al instante. En cambio, en C, no te marca el error al momento de desarrollar el algoritmo, sino que este aparece al momento de compilar. En ese punto, no puedes avanzar, sale el error y nuevamente tienes que corregir y volver a compilar.
 
 ---
 
 ### 💡 6. Reflexión Crítica de los Aprendizajes
 
-Al terminar esta primera unidad, mi mayor aprendizaje es darme cuenta de que la programación no se trata de memorizar comandos de un lenguaje, sino de saber cómo pensar y diseñar una solución antes de escribir la primera línea de código.
+Al terminar esta primera unidad, mi mayor aprendizaje es que la programación no se trata de memorizar comandos, sino de saber pensar y diseñar una solución antes de codificar. Comprendí el valor real de PSeInt, no solo como una herramienta para principiantes, sino como una forma de ordenar y validar la lógica del algoritmo, definiendo claramente la Entrada, el Proceso y la Salida.
 
-Comprendí el valor real de usar PSeInt. Más que una herramienta para principiantes, la vi como una forma de ordenar y validar la lógica de un algoritmo. Me permitió aprender a definir qué necesitaba (Entrada), qué pasos debía seguir (Proceso) y qué debía mostrar (Salida) al usuario.
+Posteriormente, en C, apliqué esta misma lógica, pero ahora enfocándome en traducirla a la sintaxis formal que el lenguaje requiere.
 
-En C, la lógica que ya había resuelto en PSeInt era la misma, pero ahora había que traducir esa lógica a una sintaxis formal, y para ello hay que aprender algunas reglas específicas de la herramienta.
-
-En resumen, esta unidad fue clave porque me ayudó a conocer las bases fundamentales para programar. Me permitió aprender a diseñar la lógica pura con PSeInt y a aplicar la sintaxis formal propia de un lenguaje como C. Gracias a los recursos y explicaciones proporcionadas por la maestra, este proceso de conectar la lógica con la sintaxis fue mucho más sencillo de comprender.
+En resumen, esta unidad fue clave porque me enseñó a diseñar la lógica pura (PSeInt) y luego aplicarla a la sintaxis formal (C). Este proceso de conectar la lógica con el código fue mucho más sencillo de comprender gracias a los recursos y explicaciones proporcionadas por la maestra.
 
 ---
 
