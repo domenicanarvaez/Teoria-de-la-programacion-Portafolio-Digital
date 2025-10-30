@@ -12,108 +12,120 @@
 
 #### 🗺️ 1. Algoritmos, Pseudocódigo y Diagramas de Flujo
 
-Conceptos base
+**Conceptos base:**
+
  * **Algoritmo:** La "receta" 🍳. Es una secuencia de pasos lógicos, finitos y claros que dan solución a un problema determinado.
 
- **🗂️ Clasificación:**
- * **🗣️ Cualitativos:** La descripción es a través de frases y palabras.
+   * **🗂️ Clasificación:**
+     * **🗣️ Cualitativos:** La descripción es a través de frases y palabras.
 
-   Ejemplo:
+       Ejemplo:
+
+       **Algoritmo para la suma de dos números**
+       1. Inicio.
+       2. Obtener el primer número.
+       3. Obtener el segundo número.
+       4. Sumar los dos números.
+       5. Mostrar el resultado de la suma.
+       6. Fin.
    
-   **Algoritmo para la suma de dos números**
-   1. Inicio.
-   2. Obtener el primer número.
-   3. Obtener el segundo número.
-   4. Sumar los dos números.
-   5. Mostrar el resultado de la suma.
-   6. Fin.
-   
- * **🔢 Cuantitativos:** Implica el uso de cálculos o fórmulas matemáticas.
+     * **🔢 Cuantitativos:** Implica el uso de cálculos o fórmulas matemáticas.
 
-   Ejemplo:
+       Ejemplo:
 
-   **Preparar una taza de café**
-   1. Inicio.
-   2. Toma una taza y una cucharada.
-   3. Pon café instantáneo en la taza.
-   4. Hierve agua en una tetera.
-   5. Vierte el agua caliente en la taza, sin llenarla por completo.
-   6. Remueve con la cucharada hasta disolver el café.
-   7. Añade azúcar o leche al gusto.
-   8. Fin.
+       **Preparar una taza de café**
+       1. Inicio.
+       2. Toma una taza y una cucharada.
+       3. Pon café instantáneo en la taza.
+       4. Hierve agua en una tetera.
+       5. Vierte el agua caliente en la taza, sin llenarla por completo.
+       6. Remueve con la cucharada hasta disolver el café.
+       7. Añade azúcar o leche al gusto.
+       8. Fin.
 
- **🧩 Partes:**
- * **📥 Las entradas:** se refiere a todos los datos, valores, variables o constantes iniciales que el algoritmo necesita para empezar a trabajar.
-   
-   * **🧩 Tipos de datos para las entradas:**
-     Un dato es una cifra, letra, palabra... que se suministra a la computadora como entrada y la máquina almacena en un determinado formato
+   * **🧩 Partes:**
 
-     Datos simples:
-     
-      * **Enteros (int):** valores que NO tienen punto decimal o flotante y pueden ser positivos o negativos.
-      * **Reales (float o double):** valores que SI tienen punto decimal o flotante y pueden ser positivos o negativos.
-      * **Carácter (char):** conformado por un solo carácter que va entre comillas y pueden ser letras, números, signos o símbolos.
-      * **Lógicos (boolean):** solo se almacenan dos tipos de datos: falso o verdadero.
-        
-     Datos compuestos:
-     
-      * **Cadenas (string):** combinación de los caracteres forma una cadena.
-   
-   * **🧩 Identificadores:**
-     Es un nombre asociado a un objeto de programa, puede ser una variable, una constante, una función...
-     
-      * **Variables:**
-        Guardan un valor, que puede ser modificado durante la ejecución del programa. Se declaran al inicio del programa, y antes de que se utilicen en las operaciones. Deben poseer un nombre. tipo de dato y valor inicial (opcional).
-      * **Constantes:**
-        Guardan un valor, pero que NO van a cambiar durante la ejecución del programa. Se escribe en MAYÚSCULAS.
+       * **📥 Las entradas:** se refiere a todos los datos, valores, variables o constantes iniciales que el algoritmo necesita para empezar a trabajar.
 
-   * **🧩 Asignación:** Es la acción de darle valor a una variable o constante. Se utiliza el signo ← o = como símbolo de asignación.
+           * **🧩 Tipos de datos para las entradas:**
+           
+             Un dato es una cifra, letra, palabra... que se suministra a la computadora como entrada y la máquina almacena en un determinado formato.
 
-     Ejemplo:
+             Datos simples:
 
-              nota1 ← 5
+             * **Enteros (int):** valores que NO tienen punto decimal o flotante y pueden ser positivos o negativos.
+             * **Reales (float o double):** valores que SI tienen punto decimal o flotante y pueden ser positivos o negativos.
+             * **Carácter (char):** conformado por un solo carácter que va entre comillas y pueden ser letras, números, signos o símbolos.
+             * **Lógicos (boolean):** solo se almacenan dos tipos de datos: falso o verdadero.
 
-              suma ← valor1 + valor2
-     
-*En PseInt se usa el comando "Leer variable", para que los usuarios ingresen datos*
+             Datos compuestos:
 
-* **⚙️ Los procesos:** es el conjunto de pasos, instrucciones o procedimientos lógicos que el algoritmo sigue para manipular los datos de entrada y transformarlos en el resultado deseado.
+             * **Cadenas (string):** combinación de los caracteres forma una cadena.
+            
+            * **🧩 Identificadores:**
+            
+              Es un nombre asociado a un objeto de programa, puede ser una variable, una constante, una función...
 
-* **📤 Las salidas:** es el resultado final o la solución que produce el algoritmo después de haber ejecutado todo el proceso.
-  
-*En PseInt se usa el comando "Escribir", para mostrar a los usuarios los resultados*
+              * **Variables:**
+
+                Guardan un valor, que puede ser modificado durante la ejecución del programa. Se declaran al inicio del programa, y antes de que se utilicen en las operaciones. Deben poseer un nombre, tipo de dato y valor inicial (opcional).
+                
+              * **Constantes:**
+                
+                Guardan un valor, pero que NO van a cambiar durante la ejecución del programa. Se escribe en MAYÚSCULAS.
+
+            * **🧩 Asignación:**
+            
+              Es la acción de darle valor a una variable o constante. Se utiliza el signo ← o = como símbolo de asignación.
+
+              Ejemplo:
+
+              `nota1 ← 5
+
+              suma ← valor1 + valor2`
+
+              **Nota:** En PseInt se usa el comando "`Leer` variable", para que los usuarios ingresen/asignen datos.
+
+       * **⚙️ Los procesos:** es el conjunto de pasos, instrucciones o procedimientos lógicos que el algoritmo sigue para manipular los datos de entrada y transformarlos en el resultado deseado.
+
+       * **📤 Las salidas:** es el resultado final o la solución que produce el algoritmo después de haber ejecutado todo el proceso.
+       
+         **Nota:** En PseInt se usa el comando `Escribir`, para mostrar a los usuarios los resultados (salida).
 
 <p align="center"><img width="409" height="103" alt="image" src="https://github.com/user-attachments/assets/285ff54e-7747-4192-9c37-cd9f4e02b50a" />
 
 <p align="center"><em><b>Figura 1:</b> Partes de un algoritmo.</em>
 </p>
 
-***Nota: los comentarios de codificación son mensajes que sirven para documentar el código. No son tomados en cuenta al momento de ejecutarse el algoritmo.***
+***Nota: al momento de armar un algoritmo se recomienda el uso de los comentarios de codificación (mensajes que documentan el código), ya que permiten organizar y clasificar las partes de un algoritmo.***
 
- **🗂️ Expresiones:**
- Son una combinación entre variables, constantes, operadores y paréntesis.
- 
- **Tipos:**
- 
- * **🗣️ Operadores aritméticos o matemáticos:**
+   * **🗂️ Expresiones:**
+   
+     Son una combinación entre variables, constantes, operadores y paréntesis.
+     * **Tipos:**
+       
+         * **🗣️ Operadores aritméticos o matemáticos:**
+           
 <p align="center"><img width="741" height="259" alt="image" src="https://github.com/user-attachments/assets/a71f6ba1-d691-455d-8d84-1378f6f8df30" />
 
 <p align="center"><em><b>Figura 2:</b> Operadores aritméticos o matemáticos.</em>
 </p>
 
- * **🗣️ Operadores relacionales:**
+         * **🗣️ Operadores relacionales:**
+         
 <p align="center"><img width="767" height="230" alt="image" src="https://github.com/user-attachments/assets/41d5d0bc-ecf4-42f5-8227-b3e6f13bd702" />
 
 <p align="center"><em><b>Figura 3:</b> Operadores relacionales.</em>
 </p>
 
- * **🗣️ Operadores lógicos:**
+         * **🗣️ Operadores lógicos:**
+         
 <p align="center"><img width="817" height="166" alt="image" src="https://github.com/user-attachments/assets/ff06985d-a104-4d2b-a54e-1549e8dd48f3" />
 
 <p align="center"><em><b>Figura 4:</b> Operadores lógicos.</em>
 </p>
 
-**Prioridad de resolución:**
+         * **Prioridad de resolución:**
 <p align="center"><img width="645" height="296" alt="image" src="https://github.com/user-attachments/assets/163ab2cb-8dbc-45a3-a999-e2503563ae13" />
 
 <p align="center"><em><b>Figura 5:</b>Orden de resolución de los tipos de operadores.</em>
@@ -140,8 +152,9 @@ Conceptos base
 
 ### 🤖 Algoritmo vs. Programa
 
-* **Algoritmo:** Es la *idea* lógica y la secuencia de pasos finitos para resolver un problema. Es el "plano" o la "receta".
-* **Programa (Software):** Es la *implementación* de ese algoritmo. Es un conjunto de instrucciones escritas en un lenguaje de programación específico (como C) que una computadora puede entender y ejecutar.
+* **Algoritmo:** Es la **idea** lógica y la secuencia de pasos finitos para resolver un problema. Es el "plano" o la "receta".
+  
+* **Programa (Software):** Es la **implementación** de ese algoritmo. Es un conjunto de instrucciones escritas en un lenguaje de programación específico (como C) que una computadora puede entender y ejecutar.
 
 **El Flujo de Creación (De la Idea al Software):**
 
