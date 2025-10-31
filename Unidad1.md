@@ -19,7 +19,8 @@
 
        Ejemplo:
 
-       **Algoritmo para la suma de dos números**
+       ```Algoritmo para la suma de dos números
+       
        1. Inicio.
        2. Obtener el primer número.
        3. Obtener el segundo número.
@@ -30,8 +31,9 @@
      * **🔢 Cuantitativos:** Implica el uso de cálculos o fórmulas matemáticas.
 
        Ejemplo:
-
-       **Preparar una taza de café**
+       
+       ```Preparar una taza de café
+       
        1. Inicio.
        2. Toma una taza y una cucharada.
        3. Pon café instantáneo en la taza.
@@ -142,7 +144,59 @@
 
 * **Pruebas de escritorio:** Consisten en simular datos de entrada, para comprobar que los resultados sean correctos. Dado el caso de que no coincidan los datos se debe revisar el análisis del problema y el código del algoritmo para aplicar las respectivas correcciones y repetir la prueba de escritorio hasta obtener los datos de salida esperados o correctos.
 
-  👉 Ejemplo: [Ejemplo empleando los tres elementos revisados en esta sección.](./EjemploPseudocódigo.md)
+  👉 Ejemplo empleando los tres elementos revisados en esta sección
+
+  ## 🗺️ Algoritmo:
+  
+La función  de este algoritmo es recibir dos números ingresados por el usuario, sumarlos, y mostrar el resultado de esa suma en pantalla.
+
+```
+Algoritmo sumaDeDosNumeros
+
+  //Variables
+	Definir  a Como Real; 
+	Definir b Como Real;
+	Definir resultado Como Real;
+	
+	//Datos de entrada
+	Escribir "Ingrese valor de a";
+	Leer a;
+	
+	Escribir "Ingrese el valor de b";
+	Leer b;
+	
+	//Datos de salida
+	resultado = a + b;
+	Escribir "El resultado es: " , resultado;
+	
+	FinAlgoritmo
+  ```
+
+## 🧩 Diagrama de flujo:
+
+<p align="center"><img width="225" height="381" alt="image" src="https://github.com/user-attachments/assets/6e946786-1723-4d1f-ada7-13a19ca03c29" />
+
+<p align="center"><p align="center"><em><b>Figura 7:</b> Diagrama de flujo para sumar dos números.</em>
+</p>
+
+## 🧪 Pruebas de escritorio:
+
+| `a` | `b` | Rresultado | Salida |
+| :---: | :---: | :---: | :--- |
+| `5` | `10` | `resultado = 5 + 10` | "El resultado es: 15" |
+| `7.5` | `2.5` | `resultado = 7.5 + 2.5` | "El resultado es: 10" |
+
+ * **En PSeInt:**
+   
+Prueba del primer caso: ✅ 
+<p align="center"><img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/c0554d4b-53e1-4287-b050-cb4639af0e18" />
+<p align="center"><em><b></b> Suma de dos números enteros.</em>
+</p>
+
+Prueba del segundo caso: ✅
+<p align="center"><img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/d22edbe5-101d-46e2-a916-e04c9997dee6" />
+<p align="center"><em><b></b> Suma de dos números decimales.</em>
+</p>
   
 ---
 
@@ -218,7 +272,7 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
 <p align="center">
 <img width="886" height="444" alt="image" src="https://github.com/user-attachments/assets/db419a71-7b12-42e3-a44b-d3eb428bab18" />
   <br>
-  <em><b>Figura 7:</b> Desafíos de Blocky Games.</em>
+  <em><b>Figura 8:</b> Desafíos de Blocky Games.</em>
 </p>
 
 * **🧱 Pilas Bloques:** Sirve para entender bucles, condicionales y eventos de una manera visual e intuitiva. Sin la frustración de la sintaxis.
@@ -230,7 +284,7 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
 <p align="center">
   <img width="1917" height="969" alt="image" src="https://github.com/user-attachments/assets/0ae3b062-a8ee-4a7e-9ebc-3d00623565bb" />
   <br>
-  <em><b>Figura 8:</b> Desafíos de Pilas Bloques</em>
+  <em><b>Figura 9:</b> Desafíos de Pilas Bloques</em>
 </p>
 
 ---
@@ -243,7 +297,7 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
 <p align="center">
 <img width="140" height="146" alt="image" src="https://github.com/user-attachments/assets/0e048d5c-9191-47fd-9eac-832c0132850f" />
 
-<p align="center"><em><b>Figura 9:</b> Logo PSeInt.</em>
+<p align="center"><em><b>Figura 10:</b> Logo PSeInt.</em>
 </p>
 
 PSeInt fue la herramienta fundamental para construir y probar nuestra lógica de programación. Es un software educativo diseñado específicamente para aprender los fundamentos de la algoritmia utilizando un **pseudocódigo** estructurado en español. Su función principal fue permitirnos diseñar soluciones algoritmos enfocándonos puramente en la lógica de **Entrada, Proceso y Salida,** sin la complejidad sintáctica de un lenguaje formal. Lo más útil fue su intérprete, que nos obligaba a seguir reglas sintácticas simples (como definir variables o usar `Escribir` y `Leer`), detectando errores lógicos al instante. Además, PSeInt nos permitió **generar y visualizar diagramas de flujo** automáticamente a partir de nuestro pseudocódigo, ayudándonos a entender la secuencia y el flujo de las instrucciones de una manera gráfica.
@@ -253,7 +307,7 @@ PSeInt fue la herramienta fundamental para construir y probar nuestra lógica de
 <p align="center">
  <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/4330edfd-e0f6-43de-ab1d-7258370981f3" />
 
-<p align="center"><em><b>Figura 10:</b> Logo PSeInt.</em>
+<p align="center"><em><b>Figura 11:</b> Logo PSeInt.</em>
 </p>
 
 Visual Studio Code (VS Code) fue el entorno de desarrollo que utilizamos para programar en el lenguaje de alto nivel C. Como editor de código, su función principal fue facilitarnos la escritura del código fuente, el cual debe guardarse obligatoriamente con la extensión `.c`. Para que un programa en C funcione, aprendimos que es fundamental incluir **librerías** usando la directiva `#include`. Estas librerías (archivos `.h`) proveen funciones esenciales, siendo la librería base `#include <stdio.h>` la más importante, ya que contiene las funciones de entrada y salida.
@@ -270,28 +324,253 @@ Son algoritmos directos, como una lista de tareas. Se ejecuta el paso 1, luego e
 
 A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (para la lógica) y en C (para la implementación).
 
+---
+
 #### 🚗 Ejemplo 1: Cálculo de Aceleración
 * **🗒️ Descripción:** Un algoritmo que solicita al usuario las velocidades (inicial y final) y el tiempo, para calcular y mostrar la aceleración resultante.
 * **🔗 Enlaces:**
-  * [Ver en PSeInt 💻](calculoAceleracion.psc)
-  * [Ver en C 🔵](calculoAceleracion.c)
-  * [Ver prueba de escritorio 🧪](prueba_calculoAceleracion.md)
+  
+  * **En PSeInt 💻:**
+```
+Algoritmo calculoAceleracion
+	
+    //Definir las variables
+    Definir aceleracion, velocidadInicial, velocidadFinal, tiempoInicial, tiempoFinal Como Real;
+    
+    //Datos de entrada
+    Escribir "Ingrese el valor que tiene la velocidad inicial(m/s):";
+    Leer velocidadInicial;
+    
+    Escribir "Ingrese el valor que tiene la velocidad final(m/s):";
+    Leer velocidadFinal;
+    
+    Escribir "Ingrese el tiempo inicial(s) transcurrido:";
+    Leer tiempoInicial;
+   
+    Escribir "Ingrese el tiempo final(s) transcurrido:";
+    Leer tiempoFinal;
+    
+    //Proceso 
+    aceleracion <- (velocidadFinal - velocidadInicial) / (tiempoFinal - tiempoInicial);
+    
+    //Salida
+    Escribir "El valor de la aceleracion es: ", aceleracion, "(m/s^2)";
+    
+FinAlgoritmo
+```
+  * **En C 🔵:**
+```
+include <stdio.h>
+#include <math.h>
 
+int main(){
+    float aceleracion, velocidadInicial, velocidadFinal, tiempoInicial, tiempoFinal;
+
+    printf("Ingrese el valor que tiene la velocidad inicial(m/s):\n");
+    scanf("%f", &velocidadInicial);
+    getchar();
+    printf("Ingrese el valor que tiene la velocidad final(m/s):\n");
+    scanf("%f", &velocidadFinal);
+    getchar();
+    printf("Ingrese el tiempo inicial(s) transcurrido:\n");
+    scanf("%f", &tiempoInicial);
+    getchar();
+    printf("Ingrese el tiempo final(s) transcurrido:\n");
+    scanf("%f", &tiempoFinal);
+    getchar();
+
+    aceleracion = (velocidadFinal - velocidadInicial)/(tiempoFinal - tiempoInicial);
+     
+    printf("El valor de la aceleracion es: %f(m/s^2)", aceleracion);
+     
+    return 0;
+}
+```
+* **Comprobanción 🔍️:**
+
+## 🧪 Pruebas de escritorio: Cálculo de Aceleración
+
+Este es el seguimiento manual del algoritmo `calculoAceleracion`.
+
+| `velocidad_i`| `velocidad_f` | `tiempo_i` | `tiempo_f` | Resultado | Salida |
+| :---: | :---: | :---: | :---: | :--- | :--- |
+| `10` | `50` | `0` | `5` | `aceleracion = (50 - 10) / (5 - 0)` | "La aceleración es: 8" |
+| `0` | `100` | `5` | `15` | `aceleracion = (100 - 0) / (15 - 5)` | "La aceleración es: 10" |
+
+ * **En PSeInt:**
+ 
+   Prueba del primer y segundo caso: ✅
+
+   <p align="center"><img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/9663f089-402d-40bc-89d9-d96f48c116dc" />
+   <p align="center"><img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/a5078d12-13e0-47a1-ac50-ef7b889b6376" />
+   <p align="center"><em><b></b> Cálculo de la aceleración en PSeInt.</em>
+</p>
+
+ * **En C:**
+ 
+   Prueba del primer y segundo caso: ✅
+
+    <p align="center"><img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/5f2f56ed-c8ab-41a2-bd3d-84b69b4a07de" />
+    <p align="center"><img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/28436614-719d-43ad-bafd-ca8ee84dd4f6" />
+    <p align="center"><em><b></b> Cálculo de la aceleración en C.</em>
+</p>
+
+---
 
 #### 🔢 Ejemplo 2: Doble y Triple de un Número
 * **🗒️ Descripción:** Un ejercicio básico que lee un número ingresado por el usuario y simplemente muestra en pantalla cuál es su valor doble y su valor triple.
 * **🔗 Enlaces:**
-  * [Ver en PSeInt 💻](dobleYTriple.psc)
-  * [Ver en C 🔵](dobleYTriple.c)
-  * [Ver prueba de escritorio 🧪](prueba_dobleYTriple.md)
+  
+  * **En PSeInt 💻:**
+ ```
+    Algoritmo dobleYTriple
+	
+	//Variable
+	Definir cantidad, doble, triple Como Entero;
+	
+	//Datos de entrada
+	Escribir "Ingrese el numero:"
+	Leer cantidad;
+	
+	//Proceso
+	doble = cantidad * 2;
+	triple = cantidad * 3;
+	
+	//Salida
+	Escribir "El doble es: ", doble;
+	Escribir "El triple es: ", triple;
+	
+FinAlgoritmo
+ ```
+  * **En C 🔵:**
+ ```
+    #include <stdio.h>
+#include <math.h>
 
+int main(){
+    
+    int numero, doble, triple;
+    
+    printf("Ingrese el numero:\n");
+    scanf("%i", &numero);
+    getchar();
 
+    doble = numero*2;
+    triple = numero*3;
+    
+    printf("El doble y triple de %i es:\n %i, %i", numero, doble, triple);
+    
+    return 0;
+
+}
+ ```
+  * **Comprobanción 🔍️:**
+
+### 🧪 Prueba de Escritorio: Doble y Triple de un Número
+
+Este es el seguimiento manual del algoritmo `dobleYTriple`.
+
+| `número` | Cálculo (`doble`) | Cálculo (`triple`) | Salida (Pantalla) |
+| :---: | :--- | :--- | :--- |
+| `5` | `doble = 5 * 2` | `triple = 5 * 3` | "El doble es: 10, El triple es: 15" |
+| `10` | `doble = 10 * 2` | `triple = 10 * 3` | "El doble es: 20, El triple es: 30" |
+
+ * **En PSeInt:**
+ 
+   Prueba del primer y segundo caso: ✅
+
+   <p align="center"><img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/48d11473-811a-46ad-884e-cc54636a0793" />
+   <p align="center"><img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/ef53e990-177f-482a-b724-c4540cc47766" />
+   <p align="center"><em><b></b> Doble y Triple de un número.</em>
+</p>
+
+ * **En C:**
+ 
+   Prueba del primer y segundo caso: ✅
+
+    <p align="center"><img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/687cf542-8268-46cf-a1b6-1c68180e4b8d" />
+    <p align="center"><img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/d29a3d68-5d5b-4e8e-8997-1528525d6e99" />
+    <p align="center"><em><b></b> Doble y Triple de un número.</em>
+</p>
+
+ ---
+ 
 #### ✂️ Ejemplo 3: Descomposición de un Número Real
 * **🗒️ Descripción:** Este algoritmo toma un número con decimales (ej: `12.35`) y lo procesa para mostrar por separado su parte entera (`12`) y su parte decimal (`0.35`).
 * **🔗 Enlaces:**
-  * [Ver en PSeInt 💻](separarDecimales.psc)
-  * [Ver en C 🔵](separarDecimales.c)
-  * [Ver prueba de escritorio 🧪](prueba_descomposiciónNumeroReal.md)
+
+    * **En PSeInt 💻:**
+ ```
+Algoritmo separarDecimales
+	
+	//Variable
+	Definir parteEntera Como Entero;
+	Definir numero, parteDecimal Como Real;
+	
+	//Datos de entrada
+	Escribir "Ingrese el numero decimal (ej: 12.5): ";
+	Leer numero;
+	
+	//Proceso
+	parteEntera = TRUNC(numero);
+	parteDecimal = numero - parteEntera;
+	
+	//Salida
+	Escribir "La parte entera es:", parteEntera;
+	Escribir " la parte decimal es:", parteDecimal;
+	
+FinAlgoritmo
+ ```
+  * **En C 🔵:**
+ ```
+#include <stdio.h>
+
+int main(){
+
+    int parteEntera;
+    float numero, parteDecimal;
+    
+    printf("Ingrese el numero decimal (ej: 12.5): ");
+    scanf("%f",&numero);
+    getchar();
+    
+    parteEntera = (int)numero;
+    
+    parteDecimal = numero - parteEntera;
+    
+    printf("La parte entera es:\n %i\n la parte decimal (truncado a 3 decimales) es:\n %.3f", parteEntera, parteDecimal);
+
+    return 0;
+}
+ ```
+  * **Comprobanción 🔍️:**
+
+### 🧪 Prueba de Escritorio: Descomposición de un Número Real
+
+Este es el seguimiento manual del algoritmo `separarNumeroReal`.
+
+| `número real` | Cálculo (`parte_entera`) | Cálculo (`parte_decimal`) | Salida |
+| :---: | :--- | :--- | :--- |
+| `12.35` | `parte_entera = trunc(12.35)` | `parte_decimal = 12.35 - 12` | "La parte entera es: 12", "La parte decimal es: 0.35" |
+| `5.80` | `parte_entera = trunc(5.80)` | `parte_decimal = 5.80 - 5` | "La parte entera es: 5", "La parte decimal es: 0.80" |
+
+ * **En PSeInt:**
+ 
+   Prueba del primer y segundo caso: ✅
+
+   <p align="center"><img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/e9391080-14f9-4ed8-832e-511969e95298" />
+   <p align="center"><img width="350" height="250" alt="image" src="https://github.com/user-attachments/assets/b30572b7-3777-44b9-b3d8-873793f83353" />
+   <p align="center"><em><b></b> Descomposición de un número real.</em>
+</p>
+
+ * **En C:**
+ 
+   Prueba del primer y segundo caso: ✅
+
+    <p align="center"><img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/bd773fb5-12ea-4a9e-af4c-9a0e18c7d081" />
+    <p align="center"><img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/03ab7ff5-4e89-4631-a842-bd82ff8be126" />
+    <p align="center"><em><b></b> Descomposición de un número real.</em>
+</p>
 
 ---
 
