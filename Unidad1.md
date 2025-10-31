@@ -144,7 +144,7 @@
 
 * **Pruebas de escritorio:** Consisten en simular datos de entrada, para comprobar que los resultados sean correctos. Dado el caso de que no coincidan los datos se debe revisar el análisis del problema y el código del algoritmo para aplicar las respectivas correcciones y repetir la prueba de escritorio hasta obtener los datos de salida esperados o correctos.
 
-  👉 Ejemplo: [Ejemplo empleando los tres elementos revisados en esta sección.](./EjemploDiagrama.md)
+  👉 Ejemplo: [Ejemplo empleando los tres elementos revisados en esta sección.](./EjemploPseudocódigo.md)
   
 ---
 
