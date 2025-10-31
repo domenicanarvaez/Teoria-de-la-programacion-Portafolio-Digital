@@ -237,7 +237,7 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
 
 ---
 
-#### ➡️ 3. Ejemplos de Algoritmos con Estructuras Lineales/Secuenciales
+#### ➡️ 3. Herramientas usadas a lo largo de la unidad.
 
 **🛠️ Herramienta usadas:**
  **1. PSeInt**
