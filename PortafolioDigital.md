@@ -4,8 +4,11 @@
 <p align="center">
   <img alt="Markdown" src="https://img.shields.io/badge/Hecho_con-Markdown-181717?style=for-the-badge&logo=markdown&logoColor=white"/>
 
-# 💻 Portafolio Digital de Aprendizaje – Teoría de la Programación
 
+<div align="center">
+
+# 💻 Portafolio Digital de Aprendizaje  
+### *Teoría de la Programación*
 
 *Una compilación de los avances, prácticas y reflexiones sobre los fundamentos del desarrollo de software.*
 
@@ -43,6 +46,8 @@
     <td>Domenica Brigeeth Narvaez Rivas</td>
   </tr>
 </table>
+
+</div>
 
 ---
 
