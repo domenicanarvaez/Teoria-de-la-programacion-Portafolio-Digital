@@ -32,8 +32,8 @@ FinAlgoritmo
 
 | `a` | `b` | Rresultado | Salida |
 | :---: | :---: | :---: | :--- |
-| `5` | `10` | `15` | "El resultado es: 15" |
-| `7.5` | `2.5` | `10.0` | "El resultado es: 10" |
+| `5` | `10` | `resultado = 5 + 10` | "El resultado es: 15" |
+| `7.5` | `2.5` | `resultado = 7.5 + 2.5` | "El resultado es: 10" |
 
  * **En PSeInt:**
    
