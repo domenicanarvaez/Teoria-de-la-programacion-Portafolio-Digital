@@ -4,7 +4,7 @@
 
 Este es el seguimiento manual del algoritmo `dobleYTriple`.
 
-| `num` | Cálculo (`doble`) | Cálculo (`triple`) | Salida (Pantalla) |
+| `número` | Cálculo (`doble`) | Cálculo (`triple`) | Salida (Pantalla) |
 | :---: | :--- | :--- | :--- |
 | `5` | `doble = 5 * 2` | `triple = 5 * 3` | "El doble es: 10, El triple es: 15" |
 | `10` | `doble = 10 * 2` | `triple = 10 * 3` | "El doble es: 20, El triple es: 30" |
