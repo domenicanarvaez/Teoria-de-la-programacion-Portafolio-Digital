@@ -194,6 +194,11 @@ Requiere un programa auxiliar llamado **intérprete**. En lugar de crear un arch
 
 Esta tabla resume las diferencias clave que aprendimos:
 
+<p align="center">
+  TABLA I<br>
+  CONTRASTE ENTRE LENGUAJES COMPILADOS E INTERPRETADOS [5]
+</p>
+
 | Característica | Lenguaje Compilado (ej. C) | Lenguaje Interpretado (ej. Python) |
 | :--- | :--- | :--- |
 | **Ejecución** | Posee la ventaja de **no necesitar un programa anexo** para ser ejecutado una vez compilado. | **Siempre necesita un programa anexo** (el intérpreprete) para funcionar. |
@@ -272,6 +277,7 @@ A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (par
 * **🔗 Enlaces:**
   * [Ver en PSeInt 💻](calculoAceleracion.psc)
   * [Ver en C 🔵](calculoAceleracion.c)
+  * [Ver prueba de escritorio 🧪](prueba_calculoAceleracion.md)
 
 
 #### 🔢 Ejemplo 2: Doble y Triple de un Número
@@ -279,6 +285,7 @@ A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (par
 * **🔗 Enlaces:**
   * [Ver en PSeInt 💻](dobleYTriple.psc)
   * [Ver en C 🔵](dobleYTriple.c)
+  * [Ver prueba de escritorio 🧪](prueba_dobleYTriple.md)
 
 
 #### ✂️ Ejemplo 3: Descomposición de un Número Real
@@ -286,6 +293,7 @@ A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (par
 * **🔗 Enlaces:**
   * [Ver en PSeInt 💻](separarDecimales.psc)
   * [Ver en C 🔵](separarDecimales.c)
+  * [Ver prueba de escritorio 🧪](prueba_descomposiciónNumeroReal.md)
 
 ---
 
