@@ -301,13 +301,13 @@ A continuación, se presentan 3 ejemplos prácticos desarrollados en PSeInt (par
 
 Durante el desarrollo de los trabajos de esta unidad, me encontré con algunas dificultades:
 
-* En PSeInt, al principio fue algo difícil aprender a "traducir" el enunciado de un problema a un pseudocódigo estructurado. Era confuso diferenciar claramente qué datos debía pedir (Entrada).
+* 🧠 En PSeInt, al principio fue algo difícil aprender a "traducir" el enunciado de un problema a un pseudocódigo estructurado. Era confuso diferenciar claramente qué datos debía pedir (Entrada).
   
-* Al programar en C, se me complicó recordar los especificadores de formato (`%f`, `%d`) y también cómo y cuándo usarlos.
+* 🔡 Al programar en C, se me complicó recordar los especificadores de formato (`%f`, `%d`) y también cómo y cuándo usarlos.
   
-* En C es un poco más complicado ejecutar el programa, porque primero hay que compilar y luego ejecutar, usando dos comandos específicos para cada acción.
+* ⚙️ En C es un poco más complicado ejecutar el programa, porque primero hay que compilar y luego ejecutar, usando dos comandos específicos para cada acción.
   
-* Pude notar que PSeInt te avisa de un error de sintaxis casi al instante. En cambio, en C, no te marca el error al momento de desarrollar el algoritmo, sino que este aparece al momento de compilar. En ese punto, no puedes avanzar, sale el error y nuevamente tienes que corregir y volver a compilar.
+* 🐞 Pude notar que PSeInt te avisa de un error de sintaxis casi al instante. En cambio, en C, no te marca el error al momento de desarrollar el algoritmo, sino que este aparece al momento de compilar. En ese punto, no puedes avanzar, sale el error y nuevamente tienes que corregir y volver a compilar.
 
 ---
 
