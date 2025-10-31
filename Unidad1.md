@@ -4,8 +4,6 @@
 
 💡 ¡El punto de partida de todo programador! Esta unidad fue clave para aprender a "pensar" antes de "codificar".
 
-<p align="center"><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/558ba8d8-f318-4c08-be88-4f4c20fc589a" />
-
 ---
 
 ### 🧠 Contenidos de la Unidad
@@ -84,7 +82,7 @@
 
               `suma ← valor1 + valor2`
 
-              **Nota:** En PseInt se usa el comando "`Leer` variable", para que los usuarios ingresen/asignen datos.
+              **Nota:** En PSeInt se usa el comando "`Leer` variable", para que los usuarios ingresen/asignen datos.
 
        * **⚙️ Los procesos:** es el conjunto de pasos, instrucciones o procedimientos lógicos que el algoritmo sigue para manipular los datos de entrada y transformarlos en el resultado deseado.
 
@@ -201,7 +199,7 @@ Esta tabla resume las diferencias clave que aprendimos:
 
 | Característica | Lenguaje Compilado (ej. C) | Lenguaje Interpretado (ej. Python) |
 | :--- | :--- | :--- |
-| **Ejecución** | Posee la ventaja de **no necesitar un programa anexo** para ser ejecutado una vez compilado. | **Siempre necesita un programa anexo** (el intérpreprete) para funcionar. |
+| **Ejecución** | Posee la ventaja de **no necesitar un programa anexo** para ser ejecutado una vez compilado. | **Siempre necesita un programa anexo** (el intérprete) para funcionar. |
 | **Velocidad** | ⚡ Se vuelve **más rápido**, ya que la traducción se hizo una sola vez. | 🐢 Es **más lento**, porque traduce el código línea por línea en cada ejecución. |
 | **Flexibilidad** | Es **menos flexible**. Cada modificación en el archivo fuente requiere **volver a compilar** el programa para aplicar los cambios. | Es **más flexible**. Los cambios en el código se reflejan inmediatamente en la siguiente ejecución. |
 
@@ -215,7 +213,7 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
   
   - [Blocky Games](https://blockly.games/?lang=en)
 
-    En esta imagen se observa los juegos con los que cuenta este softwar, estos desafíos nos ayudan a formar una base para entrar a la lógica de programación.
+    En esta imagen se observa los juegos con los que cuenta este software, estos desafíos nos ayudan a formar una base para entrar a la lógica de programación.
     
 <p align="center">
 <img width="886" height="444" alt="image" src="https://github.com/user-attachments/assets/db419a71-7b12-42e3-a44b-d3eb428bab18" />
