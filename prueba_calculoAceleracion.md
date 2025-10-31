@@ -1,4 +1,8 @@
+[🔙 Volver a la Unidad 1](Unidad1.md)
+
 ## 🧪 Pruebas de escritorio: Cálculo de Aceleración
+
+Este es el seguimiento manual del algoritmo `calculoAceleracion`.
 
 | `velocidad_i`| `velocidad_f` | `tiempo_i` | `tiempo_f` | Resultado | Salida |
 | :---: | :---: | :---: | :---: | :--- | :--- |
