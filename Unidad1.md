@@ -224,6 +224,8 @@ Sus dos categorías principales de ejecución son:
 
 Un lenguaje compilado requiere un programa llamado **compilador** (en lenguaje c es, `gcc`) que traduce todo el código fuente (en un solo paso) a uno llamado programa objeto, un archivo ejecutable que la computadora puede correr directamente.
 
+C es un lenguaje de alto nivel compilado que permite escribir instrucciones comprensibles para los humanos, pero que deben ser compiladas para traducirse al lenguaje máquina que entiende la computadora. Esto facilita el desarrollo de programas complejos de forma más sencilla, manteniendo al mismo tiempo un alto nivel de eficiencia y control sobre el hardware.
+
 **Proceso de Compilación (con C):**
 > **Programa Fuente (código fuente: `.c`)** ➡️ **Compilador (`gcc .\(nombre del archivo).c -o (nombre del archivo)`)** ➡️ **Programa Objeto (código ejecutable: `.\(nombre del archivo).exe`)**
 
