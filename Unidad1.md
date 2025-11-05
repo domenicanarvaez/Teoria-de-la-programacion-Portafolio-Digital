@@ -51,14 +51,14 @@
            
              Un dato es una cifra, letra, palabra... que se suministra a la computadora como entrada y la máquina almacena en un determinado formato.
 
-             Datos simples:
+             **Datos simples:**
 
              * **Enteros (int):** valores que NO tienen punto decimal o flotante y pueden ser positivos o negativos.
              * **Reales (float o double):** valores que SI tienen punto decimal o flotante y pueden ser positivos o negativos.
              * **Carácter (char):** conformado por un solo carácter que va entre comillas y pueden ser letras, números, signos o símbolos.
              * **Lógicos (boolean):** solo se almacenan dos tipos de datos: falso o verdadero.
 
-             Datos compuestos:
+             **Datos compuestos:**
 
              * **Cadenas (string):** combinación de los caracteres forma una cadena.
             
@@ -212,7 +212,7 @@ Prueba del segundo caso: ✅
 
 ---
 
-### 📚 Lenguajes de Programación
+### 📚 Lenguaje de Programación
 
 #### Lenguaje de Alto Nivel
 
@@ -307,7 +307,7 @@ PSeInt fue la herramienta fundamental para construir y probar nuestra lógica de
 <p align="center">
  <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/4330edfd-e0f6-43de-ab1d-7258370981f3" />
 
-<p align="center"><em><b>Figura 11:</b> Logo PSeInt.</em>
+<p align="center"><em><b>Figura 11:</b> Logo Visual Studio Code.</em>
 </p>
 
 Visual Studio Code (VS Code) fue el entorno de desarrollo que utilizamos para programar en el lenguaje de alto nivel C. Como editor de código, su función principal fue facilitarnos la escritura del código fuente, el cual debe guardarse obligatoriamente con la extensión `.c`. Para que un programa en C funcione, aprendimos que es fundamental incluir **librerías** usando la directiva `#include`. Estas librerías (archivos `.h`) proveen funciones esenciales, siendo la librería base `#include <stdio.h>` la más importante, ya que contiene las funciones de entrada y salida.
