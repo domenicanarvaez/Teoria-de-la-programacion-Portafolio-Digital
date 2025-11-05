@@ -15,7 +15,8 @@
  * **Algoritmo:** La "receta" 🍳. Es una secuencia de pasos lógicos, finitos y claros que dan solución a un problema determinado.
 
    * **🗂️ Clasificación:**
-     * **🗣️ Cualitativos:** La descripción es a través de frases y palabras.
+     
+     * **🔢 Cuantitativos:** Implica el uso de cálculos o fórmulas matemáticas.
 
        Ejemplo:
 
@@ -28,7 +29,7 @@
        5. Mostrar el resultado de la suma.
        6. Fin.
    
-     * **🔢 Cuantitativos:** Implica el uso de cálculos o fórmulas matemáticas.
+     * **🗣️ Cualitativos:** La descripción es a través de frases y palabras.
 
        Ejemplo:
        
