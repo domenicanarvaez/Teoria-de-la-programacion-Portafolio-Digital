@@ -100,35 +100,31 @@
 
 ***Nota: al momento de armar un algoritmo se recomienda el uso de los comentarios de codificación (mensajes que documentan el código), ya que permiten organizar y clasificar las partes de un algoritmo.***
 
-   * **🗂️ Expresiones:**
-   
-     Son una combinación entre variables, constantes, operadores y paréntesis.
-     
-     * **Tipos:**
+* **🗂️ Expresiones:**
 
-   **➕ Operadores aritméticos o matemáticos:**
+  Son una combinación entre variables, constantes, operadores y paréntesis.
+
+  **Tipos:**
+
+  * ➕ Operadores aritméticos o matemáticos:
        
   <p align="center"><img width="741" height="259" alt="image" src="https://github.com/user-attachments/assets/a71f6ba1-d691-455d-8d84-1378f6f8df30" />
-  <p align="center"><em><b>Figura 2:</b> Operadores aritméticos o matemáticos [5].</em>
-  </p>
-
-  **↔️ Operadores relacionales:**
+  <p align="center"><em><b>Figura 2:</b> Operadores aritméticos o matemáticos [5].</em></p>
+  
+  * ↔️ Operadores relacionales:
         
   <p align="center"><img width="767" height="230" alt="image" src="https://github.com/user-attachments/assets/41d5d0bc-ecf4-42f5-8227-b3e6f13bd702" />
-  <p align="center"><em><b>Figura 3:</b> Operadores relacionales [5].</em>
-  </p>
+  <p align="center"><em><b>Figura 3:</b> Operadores relacionales [5].</em></p>
 
-  **💡 Operadores lógicos:**
+  * 💡 Operadores lógicos:
   
   <p align="center"><img width="817" height="166" alt="image" src="https://github.com/user-attachments/assets/ff06985d-a104-4d2b-a54e-1549e8dd48f3" />
-  <p align="center"><em><b>Figura 4:</b> Operadores lógicos [5].</em>
-  </p>
-
-  **🥇 Prioridad de resolución:**
+  <p align="center"><em><b>Figura 4:</b> Operadores lógicos [5].</em></p>
+  
+  * 🥇 Prioridad de resolución:
   
   <p align="center"><img width="645" height="296" alt="image" src="https://github.com/user-attachments/assets/163ab2cb-8dbc-45a3-a999-e2503563ae13" />
-  <p align="center"><em><b>Figura 5:</b> Orden de resolución de los tipos de operadores [5].</em>
-  </p>
+  <p align="center"><em><b>Figura 5:</b> Orden de resolución de los tipos de operadores [5].</em></p>
   
 ---
 
@@ -147,7 +143,7 @@
 
   👉 Ejemplo empleando los tres elementos revisados en esta sección
 
-  ## 🗺️ Algoritmo:
+  ## 🗺️ Algoritmo y pseudocódigo:
   
 La función  de este algoritmo es recibir dos números ingresados por el usuario, sumarlos, y mostrar el resultado de esa suma en pantalla.
 
