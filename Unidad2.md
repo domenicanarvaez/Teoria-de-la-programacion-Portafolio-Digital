@@ -47,6 +47,8 @@ Las estructuras condicionales rompen el flujo secuencial, permitendo que el prog
 #### 🌦️ Ejercicio A: Determinar si un número es Positivo o Negativo
 Un clásico para entender la bifurcación simple.
 
+---
+
 ## 🔄 2. Estructuras Repetitivas
 
 También llamadas **ciclos** o **bucles**. Nos permiten repetir un bloque de código muchas veces sin tener que escribirlo de nuevo. ¡La clave de la automatización!
