@@ -12,12 +12,13 @@ Las estructuras condicionales rompen el flujo secuencial, permitendo que el prog
 
 ### 🔹 Tipos de Condicionales
 * **Simple (`if`):**
-  ** Permite que el programa tome decisiones: evalúa una condición como un valor booleano (verdadero o falso). Si es verdadero, ejecuta el bloque de código asociado; si es falso, se omite.
-  ** Sintaxis básica:
+  * Permite que el programa tome decisiones: evalúa una condición como un valor booleano (verdadero o falso). Si es verdadero, ejecuta el bloque de código asociado; si es falso, se omite.
+  * Sintaxis básica:
   if (<condición>) {
-  <bloque de sentencias>}
-  ** Componentes:
-  Palabra clave "if", condición entre paréntesis (ej. 'a' > 'b'),y bloque entre llaves (afecta a múltiples sentencias usadas)[1].
+  bloque de sentencias
+  }
+  
+  * Componentes: Palabra clave "if", condición entre paréntesis (ej. 'a' > 'b'),y bloque entre llaves (afecta a múltiples sentencias usadas)[1].
   
 * **Doble (`if-else`):**
   ** Permite ejecutar un bloque si la condición es verdadera, y otro alternativo si es falsa, asegurando siempre una acción.
