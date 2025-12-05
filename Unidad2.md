@@ -19,34 +19,58 @@ Las estructuras condicionales rompen el flujo secuencial, permitendo que el prog
   }
   
   * Componentes: Palabra clave "if", condición entre paréntesis (ej. 'a' > 'b'),y bloque entre llaves (afecta a múltiples sentencias usadas)[1].
+    
+#### **📝 Ejercicio Práctico:**
+
+**🔞 Algoritmo: Validador de Mayoría de Edad**
+**Contexto:** Simulación de un sistema de Control de Acceso. El algoritmo actúa como un filtro de seguridad para determinar permisos basándose en la edad legal (18 años), aplicable a sistemas de votación o entrada a recintos restringidos.
   
+  * **💻Implementación en C:**
+    ```
+    #include <stdio.h>
+    int main(){
+        float edad;
+
+        printf("Ingrese su edad:\n");
+        scanf("%f", &edad);
+        getchar();
+
+        if(edad >= 18){
+            printf("Usted es mayor de edad");
+        }
+        if(edad <= 18){
+            printf("Usted es menor de edad");
+        }
+
+        return 0;
+    }
+    ```
+
+  * Diagrama de flujo: 
+<p align="center"><img width="724" height="562" alt="image" src="https://github.com/user-attachments/assets/c11c5212-48bb-4556-8260-075806ecdfc8" />
+<p align="center"><em><b>Figura 1:</b> Diagrama de flujo.</em></p>
+
 * **Doble (`if-else`):**
-  ** Permite ejecutar un bloque si la condición es verdadera, y otro alternativo si es falsa, asegurando siempre una acción.
-  ** Sintaxis básica:
-  if (<condición>) {
-  <bloque de sentencias>
-  } else { <sentencias cuando no se cumple>;
-  }
-  ** Componentes:
-  Incluye "if" con condición, bloque para verdadero, "else" y bloque para falso [1].
+  * Permite ejecutar un bloque si la condición es verdadera, y otro alternativo si es falsa, asegurando siempre una acción.
+  * Sintaxis básica:
+    if (<condición>) {
+    bloque de sentencias
+    } else { sentencias cuando no se cumple;
+    }
+  * Componentes:
+    Incluye "if" con condición, bloque para verdadero, "else" y bloque para falso [1].
   
-* **Múltiple (`switch` o `if-else-if`):** Permite elegir entre muchas opciones (como un menú).
-  ** Compara una variable con múltiples valores fijos. Ejecuta código si hay coincidencia; incluye opción por defecto si ninguna coincide.
-  ** Sintaxis básica:
-  switch (variable) {
-  case valor1: <sentencias>;
-  break;
-  ...
-  default: <sentencias>;
-  }
-  ** Componentes:
-  Incluye "switch" con variable, "case" para opciones, "break" para detener, y "default"
- para casos sin coincidencia [1].
-
-### 📝 Ejercicios Prácticos
-
-#### 🌦️ Ejercicio A: Determinar si un número es Positivo o Negativo
-Un clásico para entender la bifurcación simple.
+* **Múltiple (`switch`):** 
+  * Compara una variable con múltiples valores fijos. Ejecuta código si hay coincidencia; incluye opción por defecto si ninguna coincide.
+  * Sintaxis básica:
+    switch (variable) {
+    case valor1: <sentencias>;
+    break;
+    ...
+    default: <sentencias>;
+    }
+  * Componentes:
+    Incluye "switch" con variable, "case" para opciones, "break" para detener, y "default" para casos sin coincidencia [1]. 
 
 ---
 
