@@ -1,14 +1,14 @@
 [🔙 Volver a la Portada Principal](PortafolioDigital.md)
 
-## 🚀 UNIDAD 1: Fundamentos de la Programación y Algoritmos
+# 🚀 UNIDAD 1: Fundamentos de la Programación y Algoritmos
 
 💡 ¡El punto de partida de todo programador! Esta unidad fue clave para aprender a "pensar" antes de "codificar".
 
 ---
 
-### 🧠 Contenidos de la Unidad
+## 🧠 Contenidos de la Unidad
 
-#### 🗺️ 1. Algoritmos, Pseudocódigo y Diagramas de Flujo
+### 🗺️ 1. Algoritmos, Pseudocódigo y Diagramas de Flujo
 
 **Conceptos base:**
 
@@ -143,7 +143,7 @@
 
   👉 Ejemplo empleando los tres elementos revisados en esta sección
 
-  ## 🗺️ Algoritmo y pseudocódigo:
+  ### 🗺️ Algoritmo y pseudocódigo:
   
 La función  de este algoritmo es recibir dos números ingresados por el usuario, sumarlos, y mostrar el resultado de esa suma en pantalla.
 
@@ -169,14 +169,14 @@ Algoritmo sumaDeDosNumeros
 	FinAlgoritmo
   ```
 
-## 🧩 Diagrama de flujo:
+### 🧩 Diagrama de flujo:
 
 <p align="center"><img width="225" height="381" alt="image" src="https://github.com/user-attachments/assets/6e946786-1723-4d1f-ada7-13a19ca03c29" />
 
 <p align="center"><p align="center"><em><b>Figura 7:</b> Diagrama de flujo para sumar dos números.</em>
 </p>
 
-## 🧪 Pruebas de escritorio:
+### 🧪 Pruebas de escritorio:
 
 | `a` | `b` | Rresultado | Salida |
 | :---: | :---: | :---: | :--- |
