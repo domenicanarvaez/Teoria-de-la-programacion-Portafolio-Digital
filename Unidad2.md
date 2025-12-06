@@ -16,7 +16,7 @@ Las estructuras condicionales rompen el flujo secuencial, permitendo que el prog
 ### 🔹Tipos de Condicionales
 * **Simple (`if`):**
   * Permite que el programa tome decisiones: evalúa una condición como un valor booleano (verdadero o falso). Si es verdadero, ejecuta el bloque de código asociado; si es falso, se omite.
-  * **Componentes:** Palabra clave "if", condición entre paréntesis (ej. 'a' > 'b'),y bloque entre llaves (afecta a múltiples sentencias usadas)[1].
+  * **Componentes:** Palabra clave "if", condición entre paréntesis (ej. 'a' > 'b'),y bloque entre llaves (afecta a múltiples sentencias usadas)[6].
   * **Sintaxis básica:**
   ```
   if (<condición>) {
@@ -54,7 +54,7 @@ Las estructuras condicionales rompen el flujo secuencial, permitendo que el prog
 
 * **Doble (`if-else`):** 
   * Permite ejecutar un bloque si la condición es verdadera, y otro alternativo si es falsa, asegurando siempre una acción.
-  * **Componentes:** Incluye "if" con condición, bloque para verdadero, "else" y bloque para falso [1].
+  * **Componentes:** Incluye "if" con condición, bloque para verdadero, "else" y bloque para falso [6].
   * **Sintaxis básica:**
   ```
   if (<condición>) {
@@ -92,7 +92,7 @@ Las estructuras condicionales rompen el flujo secuencial, permitendo que el prog
   
 * **Múltiple (`switch`):** 
   * Compara una variable con múltiples valores fijos. Ejecuta código si hay coincidencia; incluye opción por defecto si ninguna coincide.
-  * **Componentes:** Incluye "switch" con variable, "case" para opciones, "break" para detener, y "default" para casos sin coincidencia [1]. 
+  * **Componentes:** Incluye "switch" con variable, "case" para opciones, "break" para detener, y "default" para casos sin coincidencia [6]. 
   * **Sintaxis básica:**
   ```
   switch (variable) {
@@ -141,8 +141,8 @@ También llamadas **ciclos** o **bucles**. Nos permiten repetir un bloque de có
 
 ### 🔹Tipos de Bucles
 1.  **`While` (Mientras):** 
-  * **Uso:** Se utiliza cuando no se conoce el número de iteraciones y la repetición depende de la condición [2].
-  * Evalúa la condición antes de entrar al ciclo. Si es falsa no se ejecuta ni una vez [3]. 
+  * **Uso:** Se utiliza cuando no se conoce el número de iteraciones y la repetición depende de la condición [7].
+  * Evalúa la condición antes de entrar al ciclo. Si es falsa no se ejecuta ni una vez [8]. 
   * **Sintaxis básica:**
   ```
   while(expresión_1){
@@ -173,8 +173,8 @@ También llamadas **ciclos** o **bucles**. Nos permiten repetir un bloque de có
 <p align="center"><em><b>Figura 4:</b> Diagrama de flujo.</em></p>
 
 2.  **`Do-While` (Hacer-Mientras):** 
-  * **Uso:** Se utiliza cuando se requiere que el bloque de instrucciones se ejecute al menos una vez, independientemente de la condición [2].
-  * Primero ejecuta el bloque de instrucciones y luego evalúa la condición [3]. 
+  * **Uso:** Se utiliza cuando se requiere que el bloque de instrucciones se ejecute al menos una vez, independientemente de la condición [7].
+  * Primero ejecuta el bloque de instrucciones y luego evalúa la condición [8]. 
   * **Sintaxis básica:**
   ```
   do {
@@ -208,8 +208,8 @@ También llamadas **ciclos** o **bucles**. Nos permiten repetir un bloque de có
 >**Nota:** En PSeInt la lógica se invierte respecto a C. En lugar de "Repetir Mientras", funciona como "Repetir Hasta Que". Por eso la condición de parada es `i > 12` (cuando ya pasamos el límite).
 
 3.  **`For` (Para):** 
-   * **Uso:** Se utiliza cuando de antemano se conoce el número exacto de iteraciones que debe realizar el ciclo [2].
-  * Evalúa la condición antes de ejecutar el bloque. No se ejecuta si la condición es falsa [3]. 
+   * **Uso:** Se utiliza cuando de antemano se conoce el número exacto de iteraciones que debe realizar el ciclo [7].
+  * Evalúa la condición antes de ejecutar el bloque. No se ejecuta si la condición es falsa [8]. 
   * **Sintaxis básica:**
   ```
   for(expresión_1; expresión_2; expresión_3){
@@ -240,6 +240,7 @@ También llamadas **ciclos** o **bucles**. Nos permiten repetir un bloque de có
 
 ## 🔗 3. Ejercicio combinando estructura condicional y repetitiva
 *(Desarrollado en Python 🐍)*
+
 **🧸 Control de Calidad "ToyCheck"**
   * **📝 Descripción del problema**
     **Contexto:** Una fábrica de juguetes necesita automatizar su línea de empaquetado final. Se debe verificar que cada caja de juguete tenga el peso correcto para asegurar que no falten piezas.
