@@ -64,6 +64,12 @@
       * [💡Reflexión Crítica de los Aprendizajes](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad1.md#-5-reflexi%C3%B3n-cr%C3%ADtica-de-los-aprendizajes)
       * [🚀 Tareas Entregadas](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad1.md#-tareas-entregadas)
     * [📌 Unidad 2](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#%EF%B8%8F-unidad-2)
+      * [🚦 Estructuras Condicionales](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-1-estructuras-condicionales)
+      * [🔄 Estructuras Repetitivas](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-2-estructuras-repetitivas)
+      * [🔗 Ejercicio combinando estructura condicional y repetitiva](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-3-ejercicio-combinando-estructura-condicional-y-repetitiva)
+      * [🚧 Principales dificultades en la aplicación de los contenidos](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-4-principales-dificultades-en-la-aplicaci%C3%B3n-de-los-contenidos)
+      * [💡 Reflexión crítica de los aprendizajes de la unidad](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-5-reflexi%C3%B3n-cr%C3%ADtica-de-los-aprendizajes-de-la-unidad)
+      * [🚀 Tareas entregadas](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-6-tareas-entregadas)
     * [📌 Unidad 3](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#%EF%B8%8F-unidad-3)
 * [📑 Bibliografía (Formato IEEE)](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#-bibliograf%C3%ADa-formato-ieee)
 * [🤖 Declaración de Uso de la IA](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#-declaraci%C3%B3n-de-uso-de-la-ia-generativa)
@@ -85,14 +91,15 @@ A continuación, se presenta el desglose de las unidades que componen este porta
 
 ---
 
-### 📌 Unidad 2: 
+### 📌 Unidad 2: Estructuras algorítmicas de control
 
-¡El punto de partida! Contiene el desarrollo de los conceptos iniciales, algoritmos, pseudocódigo y las primeras tareas prácticas de la asignatura.
+¡Dando inteligencia al código! En esta unidad dejamos lo lineal para aprender a controlar el flujo del programa: toma de decisiones (Condicionales) y automatización de tareas (Bucles).
 
 > **➡️ Haz clic aquí para ver todo el contenido de la Unidad 2:**
 > ## **[🚀 Acceder a la Unidad 2](Unidad2.md)**
 
 *(Este enlace te llevará a la subcarpeta de la Unidad 2)*
+
 ---
 
 ### ⬜️ Unidad 3
@@ -118,6 +125,12 @@ A continuación, se presenta el desglose de las unidades que componen este porta
 [4] 	C. K. POLO PEREZ, «Algorítmica y herramientas de algorítmicas,» UNIVERSIDAD NACIONAL DE EDUCACIÓN ENRIQUE GUZMÁN Y VALLE, Lima, 2021.
 
 [5]   L. G. Lopez F., “Fundamentos de Algoritmos y programas”. Consultado: el 28 de octubre de 2025. [En línea]. Disponible en: https://drive.google.com/file/d/1diDOqgiZcybY4RhGTRGTjPU8TyhqUMWf/view
+
+[6]   J. C. Rodríguez Casas, «CONDICIONALES ANIDADAS», San Marcos , p. 28, 2021, Accedido: 22 de noviembre de 2025. [En línea]. Disponible en: https://repositorio.usam.ac.cr/xmlui/bitstream/handle/11506/1783/LEC%20ING%20SIST%200003%202021.pdf?sequence=1&isAllowed=y
+
+[7]   M. A. Moreno Flores, “Lenguaje de Programación C Sharp ”, UNIVERSIDAD NACIONAL DE EDUCACIÓN Enrique Guzmán y Valle, p. 73, 2022, Consultado: el 2 de diciembre de 2025. [En línea]. Disponible en: https://repositorio.une.edu.pe/server/api/core/bitstreams/9c4155be-72b4-40bd-a30b-3bfb74038a4c/content
+
+[8]   F. Yaneth, P. M. Carlos, I. Torres, L. Piedad, y C. Sosa, “ELABORACIÓN DE DIAGRAMAS DE FLUJO CON ESTRUCTURAS REPETITIVAS Y ARREGLOS”, Universidad Cooperativa de Colombia, vol. 64, p. 13, 2023, doi: 10.16925/gcgp.102.
 
 ---
 
