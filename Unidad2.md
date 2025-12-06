@@ -1,5 +1,6 @@
 [🔙 Volver a la Portada Principal](PortafolioDigital.md)
 
+
 # 🔀 UNIDAD 2: Estructuras algorítmicas de control
 
 > 💡 "Si puedes imaginarlo, puedes programarlo. Pero primero, debes controlar el flujo."
@@ -257,35 +258,38 @@ También llamadas **ciclos** o **bucles**. Nos permiten repetir un bloque de có
   * **Programa**
     ```
     def main():
-        print(" SISTEMA TOY-CHECK ")
+        print("SISTEMA TOY-CHECK")
 
         totalCajas = 0
         i = 0
         cajasAprobadas = 0
         peso = 0.0
 
-        totalCajas = int(input("Ingrese cantidad de juguetes a revisar: "))
+        totalCajas = int(input("Ingrese la cantidad de cajas de juguetes a revisar:\n"))
 
         for i in range(1, totalCajas + 1):
-            print(f"\nVerificando caja #{i}...")
-            peso = float(input("  > Peso detectado (kg): "))
+        
+            peso = float(input(f"Peso de la caja #{i} (kg):\n"))
 
             if peso >= 0.5:
-                print("  ✅ APROBADO: Peso correcto.")
+                print("\n ✅ APROBADO: Peso correcto.\n")
                 cajasAprobadas = cajasAprobadas + 1
             else:
-                print("  ⚠️ RECHAZADO: Faltan piezas.")
+                print("\n ⚠️ RECHAZADO: Faltan piezas.\n")
 
-        print("\n")
-        print("🏭 REPORTE DE CALIDAD")
-        print(f"Total procesado: {totalCajas}")
+
+        print("🏭 REPORTE DE CALIDAD\n")
+        print(f"Total de cajas procesadas: {totalCajas}")
         print(f"Cajas aprobadas: {cajasAprobadas}")
 
     if __name__ == "__main__":
         main()
     ```
+    
   * **Verificación**
-En la vida real, los programas usan todo a la vez. Aquí combinamos un **Bucle** (para mantener el programa vivo) y **Condicionales** (para elegir opciones).
+     * **Ejecución:**
+<p align="center"><img width="1465" height="528" alt="image" src="https://github.com/user-attachments/assets/a8c59d7f-1dd3-49c2-b345-e3414afca96f" />
+<p align="center"><em><b>Figura 8:</b> Ejecución - "Control de Calidad ToyCheck".</em></p>
 
 ## 🚧 4. Principales dificultades en la aplicación de los contenidos
 
