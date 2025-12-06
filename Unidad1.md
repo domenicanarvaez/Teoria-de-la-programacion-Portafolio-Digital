@@ -291,6 +291,7 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
 #### ➡️ 3. Herramientas usadas a lo largo de la unidad.
 
 * **🛠️ Herramienta usadas:**
+  
   **1. PSeInt**
 
 <p align="center">
@@ -299,9 +300,9 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
 <p align="center"><em><b>Figura 10:</b> Logo PSeInt.</em>
 </p>
 
-		PSeInt fue la herramienta fundamental para construir y probar nuestra lógica de programación. Es un software educativo diseñado específicamente para aprender los fundamentos de la algoritmia utilizando un **pseudocódigo** estructurado en español. Su función principal fue permitirnos diseñar soluciones algoritmos enfocándonos puramente en la lógica de **Entrada, Proceso y Salida,** sin la complejidad sintáctica de un lenguaje formal. Lo más útil fue su intérprete, que nos obligaba a seguir reglas sintácticas simples (como definir variables o usar `Escribir` y `Leer`), detectando errores lógicos al instante. Además, PSeInt nos permitió **generar y visualizar diagramas de flujo** automáticamente a partir de nuestro pseudocódigo, ayudándonos a entender la secuencia y el flujo de las instrucciones de una manera gráfica.
+  PSeInt fue la herramienta fundamental para construir y probar nuestra lógica de programación. Es un software educativo diseñado específicamente para aprender los fundamentos de la algoritmia utilizando un **pseudocódigo** estructurado en español. Su función principal fue permitirnos diseñar soluciones algoritmos enfocándonos puramente en la lógica de **Entrada, Proceso y Salida,** sin la complejidad sintáctica de un lenguaje formal. Lo más útil fue su intérprete, que nos obligaba a seguir reglas sintácticas simples (como definir variables o usar `Escribir` y `Leer`), detectando errores lógicos al instante. Además, PSeInt nos permitió **generar y visualizar diagramas de flujo** automáticamente a partir de nuestro pseudocódigo, ayudándonos a entender la secuencia y el flujo de las instrucciones de una manera gráfica.
 
- **2. Visual Studio Code (lenguaje C)**
+  **2. Visual Studio Code (lenguaje C)**
 
 <p align="center">
  <img width="90" height="90" alt="image" src="https://github.com/user-attachments/assets/4330edfd-e0f6-43de-ab1d-7258370981f3" />
@@ -309,11 +310,11 @@ Una introducción visual y amigable (¡como un rompecabezas!) a la lógica de pr
 <p align="center"><em><b>Figura 11:</b> Logo Visual Studio Code.</em>
 </p>
 
-		Visual Studio Code (VS Code) fue el entorno de desarrollo que utilizamos para programar en el lenguaje de alto nivel C. Como editor de código, su función principal fue facilitarnos la escritura del código fuente, el cual debe guardarse obligatoriamente con la extensión `.c`. Para que un programa en C funcione, aprendimos que es fundamental incluir **librerías** usando la directiva `#include`. Estas librerías (archivos `.h`) proveen funciones esenciales, siendo la librería base `#include <stdio.h>` la más importante, ya que contiene las funciones de entrada y salida.
+  Visual Studio Code (VS Code) fue el entorno de desarrollo que utilizamos para programar en el lenguaje de alto nivel C. Como editor de código, su función principal fue facilitarnos la escritura del código fuente, el cual debe guardarse obligatoriamente con la extensión `.c`. Para que un programa en C funcione, aprendimos que es fundamental incluir **librerías** usando la directiva `#include`. Estas librerías (archivos `.h`) proveen funciones esenciales, siendo la librería base `#include <stdio.h>` la más importante, ya que contiene las funciones de entrada y salida.
 
-		Toda la lógica del programa debe escribirse dentro de la función principal `int main() { ... }`, que es el punto de inicio de la ejecución. Dentro de esta función, definimos variables con sus tipos de datos (como `int`, `char`, `float` o `double`) y cada instrucción debe finalizar obligatoriamente con un punto y coma (`;`). Para la entrada y salida, en lugar de `Leer` y `Escribir` de PSeInt, usamos `printf()` para mostrar datos y `scanf()` para leerlos. Ambas funciones requieren **"máscaras"** (especificadores de formato) para saber qué tipo de dato manejar, como `%d` para enteros, `%f` para flotantes, `%c` para caracteres o `%s` para cadenas. Un detalle crucial de `scanf()` es que exige el uso del ampersand (`&`)antes del nombre de la variable para poder guardar el dato en su dirección de memoria.
+  Toda la lógica del programa debe escribirse dentro de la función principal `int main() { ... }`, que es el punto de inicio de la ejecución. Dentro de esta función, definimos variables con sus tipos de datos (como `int`, `char`, `float` o `double`) y cada instrucción debe finalizar obligatoriamente con un punto y coma (`;`). Para la entrada y salida, en lugar de `Leer` y `Escribir` de PSeInt, usamos `printf()` para mostrar datos y `scanf()` para leerlos. Ambas funciones requieren **"máscaras"** (especificadores de formato) para saber qué tipo de dato manejar, como `%d` para enteros, `%f` para flotantes, `%c` para caracteres o `%s` para cadenas. Un detalle crucial de `scanf()` es que exige el uso del ampersand (`&`)antes del nombre de la variable para poder guardar el dato en su dirección de memoria.
 
-		Finalmente, la **terminal integrada** de VS Code nos permitió compilar el programa usando `gcc ./nombre_archivo.c -o nombre_archivo` y ejecutarlo con `./nombre_archivo.exe`, centralizando todo el ciclo de desarrollo en una sola interfaz.
+  Finalmente, la **terminal integrada** de VS Code nos permitió compilar el programa usando `gcc ./nombre_archivo.c -o nombre_archivo` y ejecutarlo con `./nombre_archivo.exe`, centralizando todo el ciclo de desarrollo en una sola interfaz.
 
 ---
 
