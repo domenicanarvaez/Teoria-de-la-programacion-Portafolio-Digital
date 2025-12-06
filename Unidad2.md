@@ -201,15 +201,39 @@ También llamadas **ciclos** o **bucles**. Nos permiten repetir un bloque de có
     }
     ```
       * **🧩 Diagrama de flujo**: 
-<p align="center"><img width="402" height="367" alt="image" src="https://github.com/user-attachments/assets/a0943c5b-eab7-4fdf-830d-da631fbc8cab" />
+<p align="center"><img width="302" height="267" alt="image" src="https://github.com/user-attachments/assets/a0943c5b-eab7-4fdf-830d-da631fbc8cab" />
 <p align="center"><em><b>Figura 5:</b> Diagrama de flujo.</em></p>
 
-3.  **`For` (Para):** Ideal cuando sabemos exactamente cuántas veces queremos repetir algo (ej: "repetir 10 veces").
+>**Nota:** En PSeInt la lógica se invierte respecto a C. En lugar de "Repetir Mientras", funciona como "Repetir Hasta Que". Por eso la condición de parada es `i > 12` (cuando ya pasamos el límite).
 
-### 📝 Ejercicios Prácticos
+3.  **`For` (Para):** 
+   * **Uso:** Se utiliza cuando de antemano se conoce el número exacto de iteraciones que debe realizar el ciclo [2].
+  * Evalúa la condición antes de ejecutar el bloque. No se ejecuta si la condición es falsa [3]. 
+  * **Sintaxis básica:**
+  ```
+  for(expresión_1; expresión_2; expresión_3){
+    instrucción_1;
+    instrucción_2;
+  }
 
-#### ✖️ Ejercicio C: Tabla de Multiplicar (Bucle For)
-Generar la tabla del 1 al 10 de un número ingresado por el usuario.
+  ```
+  * #### **📝 Ejercicio Práctico:**
+    **✖️ Algoritmo: Tabla de Multiplicar del 2**
+    **Contexto:** El algoritmo automatiza una tarea repetitiva (multiplicar el número 2 por una secuencia del 1 al 12), demostrando el uso de bucles para procesar series numéricas sin necesidad de escribir código redundante.
+  
+      * **💻Implementación en C:**
+    ```
+    #include <stdio.h>
+    int main(){
+        for (i=1; i<=12; i++){
+            printf("2*%i = %i\n", contador, 2 * contador);
+        }
+        return 0;
+    }
+    ```
+      * **🧩 Diagrama de flujo**: 
+<p align="center"><img width="339" height="189" alt="image" src="https://github.com/user-attachments/assets/24dea603-e223-47ae-8fe8-72d65245daf1" />
+<p align="center"><em><b>Figura 6:</b> Diagrama de flujo.</em></p>
 
 ## 🔗 3. Ejercicio combinando estructura condicional y repetitiva
 *(Desarrollado en Python 🐍)*
