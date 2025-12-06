@@ -235,16 +235,102 @@ También llamadas **ciclos** o **bucles**. Nos permiten repetir un bloque de có
 <p align="center"><img width="339" height="189" alt="image" src="https://github.com/user-attachments/assets/24dea603-e223-47ae-8fe8-72d65245daf1" />
 <p align="center"><em><b>Figura 6:</b> Diagrama de flujo.</em></p>
 
+---
+
 ## 🔗 3. Ejercicio combinando estructura condicional y repetitiva
 *(Desarrollado en Python 🐍)*
-  * Descripción del problema
-  * Diagrama de flujo simplificado
-  * Programa
-  * Verificación
+**🧸 Control de Calidad "ToyCheck"**
+  * **📝 Descripción del problema**
+    **Contexto:** Una fábrica de juguetes necesita automatizar su línea de empaquetado final. Se debe verificar que cada caja de juguete tenga el peso correcto para asegurar que no falten piezas.
+    **Reglas del Sistema**
+     * El operario ingresa la cantidad total de cajas a revisar (totalToys).
+     * El peso mínimo aceptable para que una caja esté completa es de 0.5 kg.
+     * Proceso:
+       Si la caja pesa 0.5 kg o más, se considera "Aprobada".
+       Si pesa menos, se considera "Defectuosa" (falta manual o piezas).
+     * Al final, se debe mostrar cuántas cajas pasaron el control de calidad.
+       
+  * **🧩 Diagrama de flujo**
+<p align="center"><img width="1085" height="333" alt="image" src="https://github.com/user-attachments/assets/257433dc-7faa-459f-9d9f-182576d92fed" />
+<p align="center"><em><b>Figura 7:</b> Diagrama de flujo - "Control de Calidad ToyCheck".</em></p>
+    
+  * **Programa**
+    ```
+    def main():
+        print(" SISTEMA TOY-CHECK ")
+
+        totalCajas = 0
+        i = 0
+        cajasAprobadas = 0
+        peso = 0.0
+
+        totalCajas = int(input("Ingrese cantidad de juguetes a revisar: "))
+
+        for i in range(1, totalCajas + 1):
+            print(f"\nVerificando caja #{i}...")
+            peso = float(input("  > Peso detectado (kg): "))
+
+            if peso >= 0.5:
+                print("  ✅ APROBADO: Peso correcto.")
+                cajasAprobadas = cajasAprobadas + 1
+            else:
+                print("  ⚠️ RECHAZADO: Faltan piezas.")
+
+        print("\n")
+        print("🏭 REPORTE DE CALIDAD")
+        print(f"Total procesado: {totalCajas}")
+        print(f"Cajas aprobadas: {cajasAprobadas}")
+
+    if __name__ == "__main__":
+        main()
+    ```
+  * **Verificación**
 En la vida real, los programas usan todo a la vez. Aquí combinamos un **Bucle** (para mantener el programa vivo) y **Condicionales** (para elegir opciones).
 
 ## 🚧 4. Principales dificultades en la aplicación de los contenidos
 
+El salto de la programación secuencial (línea por línea) a la programación estructurada con control de flujo trajo consigo nuevos retos lógicos y de sintaxis:
+
+* 🔢 Al principio no lograba identificar con claridad cuándo un problema requería un contador y cuándo no. Me costaba entender la lógica de inicializar una variable en cero y dónde colocar exactamente el incremento (ej: `i = i + 1`) dentro del bucle para que funcionara correctamente.
+
+* ♾️ Una de las mayores frustraciones fue entender el control de los ciclos. En varias ocasiones, olvidé actualizar el contador (ej: `i++`) o escribí mal la condición de salida en el `while`, lo que provocaba que mi programa se "colgara" y nunca terminara de ejecutarse.
+
+* 🤔 En C, cometí frecuentemente el error de usar un solo igual `=` dentro de una condición `if`. Esto no generaba error de sintaxis al compilar, pero hacía que el programa funcionara mal lógicamente, lo cual fue difícil de detectar al principio.
+
+* 🔀 Al combinar un `if` dentro de un `for`, o un `switch` dentro de un `while`, se me complicaba mantener el orden de las llaves `{ }` y la indentación. A veces cerraba una llave antes de tiempo y rompía la lógica del bloque entero.
+
+* ❓ Al principio me costaba distinguir cuándo usar cada uno. Me equivoqué varias veces usando `while` para menús de opciones, hasta que comprendí que el `do-while` es superior en esos casos porque garantiza que el menú se muestre al menos una vez.
+
+---
+
 ## 💡 5. Reflexión crítica de los aprendizajes de la unidad
 
+Esta unidad ha marcado un verdadero punto de inflexión en mi formación, pues pasar de la programación lineal a la estructurada cambió por completo mi forma de entender el desarrollo de software. Si bien al inicio me sentía cómoda dando instrucciones paso a paso, comprender las estructuras de control me hizo darme cuenta de que la verdadera potencia de un programa reside en su capacidad para tomar decisiones autónomas y automatizar tareas repetitivas. A través de la práctica, descubrí que la programación no se trata de escribir muchas líneas de código, sino de buscar la eficiencia; un bucle bien diseñado vale más que cien instrucciones manuales. Aunque la sintaxis de C y la lógica de los contadores fueron desafiantes, superar esos obstáculos me ha dado la confianza para dejar de ver los problemas como simples secuencias y empezar a verlos como sistemas dinámicos que puedo controlar y optimizar.
+
+---
+
 ## 🚀 6. Tareas entregadas
+
+### 📚 1. Aprendizaje Autónomo (AA)
+
+Actividades enfocadas en la auto-investigación, síntesis visual y comparación de conceptos.
+
+#### 🎨 Tarea 1: Infografía de Estructuras Condicionales
+* **📝 Descripción:** Creación de una infografía visual y detallada explicando la sintaxis y uso de `IF`, `IF-ELSE` y `SWITCH`. Incluye la resolución de un ejercicio práctico aplicando estas decisiones lógicas.
+* **🔗 Enlace:** [Ver Tarea 1 AA (PDF)](https://drive.google.com/file/d/1zewgmqb2cv2EgJF5pmReyNTf1eNd_8Fg/view?usp=sharing)
+
+#### 🆚 Tarea 2: Cuadro Comparativo de Bucles (While vs. Do-While vs. For)
+* **📝 Descripción:** Elaboración de un cuadro comparativo que contrasta las características, sintaxis y momentos de uso de las estructuras repetitivas (`While`, `Do-While`, `For`), acompañado de un ejercicio de aplicación.
+* **🔗 Enlace:** [Ver Tarea 2 AA (PDF)](https://drive.google.com/file/d/1SM3rpaHPkDO4xPmoJrjiGY9xOVxKYR7j/view?usp=drive_link)
+
+### 🔬 2. Aprendizaje Práctico Experimental (APE)
+
+Tareas diseñadas para la implementación técnica y documentación de soluciones.
+
+#### ⚡ Tarea 1: Práctica de Estructuras Condicionales
+* **📝 Descripción:** Desarrollo de un informe técnico que documenta la resolución de un ejercicio complejo utilizando estructuras condicionales para la toma de decisiones en el algoritmo.
+* **🔗 Enlace:** [Ver Tarea 1 APE (PDF)](https://drive.google.com/file/d/1Eap9p3JM1LcWQ3SlyVXuZEN5AiVnaCwz/view?usp=drive_link)
+
+#### 🌀 Tarea 2: Práctica de Estructuras Repetitivas
+* **📝 Descripción:** Implementación de un algoritmo que requiere el uso de bucles para su solución. Se adjunta el informe respectivo con el análisis, diseño y pruebas del ejercicio.
+* **🔗 Enlace:** [Ver Tarea 2 APE (PDF)](https://drive.google.com/file/d/1BbBpHAwAAFVez_M6ZXdDpat092xE7G9E/view?usp=drive_link)
