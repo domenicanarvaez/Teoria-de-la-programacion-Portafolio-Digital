@@ -202,7 +202,7 @@ También llamadas **ciclos** o **bucles**. Nos permiten repetir un bloque de có
     }
     ```
       * **🧩 Diagrama de flujo**: 
-<p align="center"><img width="302" height="267" alt="image" src="https://github.com/user-attachments/assets/a0943c5b-eab7-4fdf-830d-da631fbc8cab" />
+<p align="center"><img width="302" height="267" alt="image" src="https://github.com/user-attachments/assets/65132414-86ab-4a9f-bff2-1f76d28f170e" />
 <p align="center"><em><b>Figura 5:</b> Diagrama de flujo.</em></p>
 
 >**Nota:** En PSeInt la lógica se invierte respecto a C. En lugar de "Repetir Mientras", funciona como "Repetir Hasta Que". Por eso la condición de parada es `i > 12` (cuando ya pasamos el límite).
