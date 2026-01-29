@@ -128,23 +128,34 @@ Se utilizan principalmente cuando se necesita trabajar con **conjuntos de datos 
 
 ## **🚧 3. Principales dificultades en la aplicación de los contenidos**
 
-Durante el estudio de esta unidad se pueden presentar las siguientes dificultades:
+Durante el desarrollo de esta unidad, una de las principales dificultades estuvo relacionada con la **modularidad**, especialmente al momento de invocar correctamente los módulos a o desde la función `main`. En varias ocasiones resultó complejo recordar la estructura adecuada para llamar funciones con y sin valor de retorno, parámetros por valor y por referencia.
 
-- Comprender cómo dividir correctamente un programa en módulos.  
-- Diferenciar entre **paso por valor** y **paso por referencia**.  
-- Manejar correctamente los índices de los arreglos.  
-- Evitar errores comunes como accesos fuera de rango.  
-- Visualizar el funcionamiento interno de los arreglos en memoria.  
+Asimismo, surgieron dificultades al trabajar con **arreglos**, en particular al momento de imprimir valores específicos. En algunos casos se olvidaba la sintaxis correcta para acceder a una posición determinada, como el uso adecuado de los corchetes `[ ]`, lo cual es fundamental para mostrar correctamente el contenido de un arreglo en pantalla. 
 
-Estas dificultades forman parte del proceso de aprendizaje y se superan con práctica constante.
+Estas dificultades evidenciaron la importancia de practicar constantemente la estructura y sintaxis del lenguaje para reforzar la lógica y evitar errores comunes.
 
 ---
 
 ## **💡 4. Reflexión crítica de los aprendizajes de la unidad**
 
-La modularidad y los arreglos fortalecen el pensamiento lógico y estructurado.  
-Esta unidad permitió comprender que un buen programa no solo debe funcionar, sino también ser **claro, ordenado y fácil de mantener**.  
-El uso de funciones y arreglos marca la transición de una programación básica hacia una programación más profesional y eficiente, preparando el camino para el desarrollo de sistemas más complejos.
+Esta unidad permitió comprender que un buen programa no solo debe cumplir con su función o producir el resultado esperado, sino que también debe estar **bien estructurado, organizado y ser fácil de comprender y mantener**. La aplicación de la modularidad y el uso adecuado de arreglos fortalecieron la lógica de programación, demostrando que dividir un problema en partes más pequeñas facilita tanto su desarrollo como su posterior corrección y mejora. Este aprendizaje resulta fundamental para la construcción de programas más eficientes, claros y escalables, especialmente en proyectos de mayor complejidad.
 
 ---
+
 ## **🚀 5. Tareas entregadas**
+
+### 📚 1. Aprendizaje Autónomo (AA)
+
+#### 🎨 Tarea 1: Certificado de curso en Python para principiantes
+* **📝 Descripción:** Curso de Python en donde se reforzaron los conceptos básicos del lenguaje, incluyendo funciones, arrays, bucles, etc.  
+* **🔗 Enlace:** [Ver Tarea 1 AA (PDF)](https://drive.google.com/file/d/1zewgmqb2cv2EgJF5pmReyNTf1eNd_8Fg/view?usp=sharing)
+
+### 🔬 2. Aprendizaje Práctico Experimental (APE)
+
+#### 📥 Tarea 1: Práctica de funciones
+* **📝 Descripción:** Desarrollo de un informe técnico que documenta la resolución de un ejercicio complejo donde se aplicaron los conceptos de **modularidad**, diferenciando funciones con y sin valor de retorno.
+* **🔗 Enlace:** [Ver Tarea 1 APE (PDF)](https://drive.google.com/file/d/1Eap9p3JM1LcWQ3SlyVXuZEN5AiVnaCwz/view?usp=drive_link)
+
+#### 🛠️ Tarea 2: Práctica de funciones utilizando paso de parámetros
+* **📝 Descripción:** Implementación de un algoritmo que requiere el uso de funciones por paso de parámetros para su solución, implementado en la plataforma **Replit**. Se adjunta el código en C.
+* **🔗 Enlace:** [Ver Tarea 2 APE (PDF)](https://drive.google.com/file/d/1BbBpHAwAAFVez_M6ZXdDpat092xE7G9E/view?usp=drive_link)
