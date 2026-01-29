@@ -44,7 +44,26 @@ En lugar de repetir instrucciones varias veces, se encapsulan dentro de una func
   - La variable original permanece intacta.
   - Es el más utilizado para cálculos y operaciones temporales.
 
-  **Ejemplo conceptual:**
+  **Ejemplo conceptual 🧮:**
+
+  Este algoritmo tiene una función que recibe un número entero y lo incremente en 1. Mostrando el valor antes y después de llamar a la función comprobando que el valor original no cambia.
+  
+```c
+#include <stdio.h>
+
+void incrementar(int num) {
+    num = num + 1;
+    printf("Valor dentro de la funcion: %d\n", num);
+}
+
+int main() {
+    int x = 5;
+    printf("Valor antes de la funcion: %d\n", x);
+    incrementar(x);
+    printf("Valor despues de la funcion: %d\n", x);
+    return 0;
+}
+```
 
 * #### Paso de parámetros por referencia 🔗
   En el **paso por referencia**, la función recibe **la dirección de memoria** de la variable original.  
@@ -58,7 +77,25 @@ En lugar de repetir instrucciones varias veces, se encapsulan dentro de una func
   - En C se usa mediante **punteros** (`*`).
   - Es más eficiente para grandes volúmenes de datos.
 
-  **Ejemplo conceptual:**
+  **Ejemplo conceptual 🔄:**
+
+  Este algoritmo crea una función que recibe un número entero por referencia y lo incremente en 1, verificando que el cambio se refleje en la función `main`.
+  
+```c
+#include <stdio.h>
+
+void incrementar(int *num) {
+    *num = *num + 1;
+}
+
+int main() {
+    int x = 5;
+    printf("Valor antes de la funcion: %d\n", x);
+    incrementar(&x);
+    printf("Valor despues de la funcion: %d\n", x);
+    return 0;
+}
+```
 
   #### 🆚 Comparación rápida
   
@@ -110,17 +147,66 @@ Se utilizan principalmente cuando se necesita trabajar con **conjuntos de datos 
 * #### **Arreglos unidimensionales ➖**
   También llamados **vectores**. Son arreglos que almacenan datos en **una sola dimensión**, es decir, solo tiene una fila y columnas en forma de lista.
   
-  **Ejemplo conceptual:**
+  **Ejemplo conceptual 🔢:**
+
+    Este algoritmo guarda 5 números en un arreglo y los muestra en pantalla.
+
+```c
+#include <stdio.h>
+
+int main() {
+    int numeros[5] = {2, 4, 6, 8, 10};
+
+    for(int i = 0; i < 5; i++) {
+        printf("Posicion %d: %d\n", i, numeros[i]);
+    }
+    return 0;
+}
+```
 
 * #### **Arreglos bidimensionales 🟦🟦**
   Conocidos también como **matrices**. Son arreglos organizados en **dos dimensiones**, similares a una tabla con filas y columnas.
 
-  **Ejemplo conceptual:**
+  **Ejemplo conceptual 📅:**
+
+    Este algoritmo crea una matriz 2x2 y muestra sus valores.
+
+```c
+#include <stdio.h>
+
+int main() {
+    int matriz[2][2] = {{1, 2}, {3, 4}};
+
+    for(int i = 0; i < 2; i++) {
+        for(int j = 0; j < 2; j++) {
+            printf("%d ", matriz[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+```
 
 * #### **Arreglos tridimensionales 🧊**
   Son arreglos que poseen **tres dimensiones** y se utilizan para estructuras de datos más complejas. Contienen filas, columnas, y de profundidad.
 
-  **Ejemplo conceptual:**
+  **Ejemplo conceptual 📈:**
+
+  Este algoritmo define un arreglo 2x2x2 y muestra uno de sus valores.
+
+```c
+#include <stdio.h>
+
+int main() {
+    int datos[2][2][2] = {
+        {{1, 2}, {3, 4}},
+        {{5, 6}, {7, 8}}
+    };
+
+    printf("Valor en [1][0][1]: %d\n", datos[1][0][1]);
+    return 0;
+}
+```
 
 📌 El uso adecuado de arreglos mejora la eficiencia del programa y reduce la cantidad de variables necesarias.
 
