@@ -117,7 +117,22 @@ int main() {
   - Usan `return` para devolver un valor.
   - El valor retornado puede ser almacenado en una variable o usado directamente.
 
-  **Ejemplo conceptual:**
+  **Ejemplo conceptual 🟦:**
+
+  Este algoritmo tiene una función que muestra un mensaje de bienvenida al usuario. La función es llamada desde `main`.
+
+```c
+#include <stdio.h>
+
+void mostrarMensaje() {
+    printf("Bienvenido al programa de Teoria de la Programacion\n");
+}
+
+int main() {
+    mostrarMensaje();
+    return 0;
+}
+```
 
 * #### Funciones sin valor de retorno 🚫🔁
   Son aquellas que **no devuelven ningún valor** al finalizar su ejecución.  
@@ -129,8 +144,25 @@ int main() {
   - No utilizan `return` para devolver valores.
   - Ejecutan acciones como imprimir datos o mostrar mensajes.
 
-  **Ejemplo conceptual:**
+  **Ejemplo conceptual ✅:**
 
+  Este algoritmo tiene una función que recibe dos números enteros, los suma y devuelve el resultado para ser mostrado en la función `main`.
+
+```c
+#include <stdio.h>
+
+int sumar(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    int resultado;
+    resultado = sumar(4, 6);
+    printf("La suma es: %d\n", resultado);
+    return 0;
+}
+```
+  
 ✨ Las funciones, ya sea con o sin valor de retorno y con parámetros, son una base esencial de la **programación estructurada y modular**, ya que permiten crear programas más ordenados, claros y eficientes.
 
 ---
