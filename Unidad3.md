@@ -148,14 +148,72 @@ Esta unidad permitió comprender que un buen programa no solo debe cumplir con s
 
 #### 🎨 Tarea 1: Certificado de curso en Python para principiantes
 * **📝 Descripción:** Curso de Python en donde se reforzaron los conceptos básicos del lenguaje, incluyendo funciones, arrays, bucles, etc.  
-* **🔗 Enlace:** [Ver Tarea 1 AA (PDF)](https://drive.google.com/file/d/1zewgmqb2cv2EgJF5pmReyNTf1eNd_8Fg/view?usp=sharing)
+* **🔗 Enlace:** [Ver Tarea 1 AA (PDF)](https://drive.google.com/file/d/1kSQm5RDnnJGt7HRLs4x6BB4XENygG7pT/view?usp=drive_link)
 
 ### 🔬 2. Aprendizaje Práctico Experimental (APE)
 
 #### 📥 Tarea 1: Práctica de funciones
 * **📝 Descripción:** Desarrollo de un informe técnico que documenta la resolución de un ejercicio complejo donde se aplicaron los conceptos de **modularidad**, diferenciando funciones con y sin valor de retorno.
-* **🔗 Enlace:** [Ver Tarea 1 APE (PDF)](https://drive.google.com/file/d/1Eap9p3JM1LcWQ3SlyVXuZEN5AiVnaCwz/view?usp=drive_link)
+* **🔗 Enlace:** [Ver Tarea 1 APE (PDF)](https://drive.google.com/file/d/1GhVFFAmH94TCYfOR4KAoyInhEIWCjGCS/view?usp=drive_link)
 
 #### 🛠️ Tarea 2: Práctica de funciones utilizando paso de parámetros
 * **📝 Descripción:** Implementación de un algoritmo que requiere el uso de funciones por paso de parámetros para su solución, implementado en la plataforma **Replit**. Se adjunta el código en C.
-* **🔗 Enlace:** [Ver Tarea 2 APE (PDF)](https://drive.google.com/file/d/1BbBpHAwAAFVez_M6ZXdDpat092xE7G9E/view?usp=drive_link)
+
+```c
+#include <stdio.h>
+void calcularValorRecaudado(int clientes);
+void calcularValorCliente(float *total);
+
+int main() {
+    int clientes;
+
+    printf("Ingrese el numero de clientes: \n");
+    scanf("%d", &clientes);
+
+    calcularValorRecaudado(clientes);
+    return 0;
+}
+
+void calcularValorRecaudado(int clientes){
+    float total = 0;
+    for(int i = 1; i <= clientes; i++){
+      printf("\nCliente # %d\n", i);
+      calcularValorCliente(&total);
+    }
+    printf("\nTotal recaudado del día: $ %.2f\n", total);
+}
+
+void calcularValorCliente(float *total){
+    int consola;
+    int horas;
+    float valor = 0;
+    
+    do {
+        printf("Tomando en cuenta que PlayStation = 1, Xbox = 2 y Nintendo = 3\n");
+        printf("Ingrese el tipo de consola (1, 2 o 3): \n");
+        scanf("%d", &consola);
+    
+        if(consola != 1 && consola != 2 && consola != 3){
+            printf("Error. Opción no válida. Intente nuevamente.\n");
+        }
+    }while(consola != 1 && consola != 2 && consola != 3);
+
+    printf("Ingrese el número de horas que se alquiló la consola: \n");
+    scanf("%d", &horas);
+
+    switch(consola){
+      case 1:
+        valor = horas * 2.5;
+        break;
+      case 2:
+        valor = horas * 2;
+        break;
+      case 3:
+        valor = horas * 1.5;
+        break;
+    }
+    printf("El valor a pagar por el cliente es: $ %.2f\n", valor);
+    *total += valor;
+
+}
+```
