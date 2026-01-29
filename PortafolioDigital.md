@@ -63,14 +63,19 @@
       * [🚧 Principales Dificultades en la Aplicación](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad1.md#-4-principales-dificultades-en-la-aplicaci%C3%B3n)
       * [💡Reflexión Crítica de los Aprendizajes](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad1.md#-5-reflexi%C3%B3n-cr%C3%ADtica-de-los-aprendizajes)
       * [🚀 Tareas Entregadas](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad1.md#-tareas-entregadas)
-    * [📌 Unidad 2](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#%EF%B8%8F-unidad-2)
+    * [📌 Unidad 2: Estructuras algorítmicas de control](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#%EF%B8%8F-unidad-2)
       * [🚦 Estructuras Condicionales](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-1-estructuras-condicionales)
       * [🔄 Estructuras Repetitivas](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-2-estructuras-repetitivas)
       * [🔗 Ejercicio combinando estructura condicional y repetitiva](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-3-ejercicio-combinando-estructura-condicional-y-repetitiva)
       * [🚧 Principales dificultades en la aplicación de los contenidos](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-4-principales-dificultades-en-la-aplicaci%C3%B3n-de-los-contenidos)
       * [💡 Reflexión crítica de los aprendizajes de la unidad](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-5-reflexi%C3%B3n-cr%C3%ADtica-de-los-aprendizajes-de-la-unidad)
       * [🚀 Tareas entregadas](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad2.md#-6-tareas-entregadas)
-    * [📌 Unidad 3](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#%EF%B8%8F-unidad-3)
+    * [📌 Unidad 3: Programación Modular y Estructuras de Datos Estáticas](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad3.md#-unidad-3-programaci%C3%B3n-modular-y-estructuras-de-datos-est%C3%A1ticas)
+      * [🧠 Modularidad](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad3.md#-1-modularidad)
+      * [📝 Arreglos](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad3.md#-2-arreglos)
+      * [🚧 Principales dificultades en la aplicación de los contenidos](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad3.md#-3-principales-dificultades-en-la-aplicaci%C3%B3n-de-los-contenidos)
+      * [💡 Reflexión crítica de los aprendizajes de la unidad](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad3.md#-4-reflexi%C3%B3n-cr%C3%ADtica-de-los-aprendizajes-de-la-unidad)
+      * [🚀 Tareas entregadas](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/Unidad3.md#-5-tareas-entregadas)
 * [📑 Bibliografía (Formato IEEE)](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#-bibliograf%C3%ADa-formato-ieee)
 * [🤖 Declaración de Uso de la IA](https://github.com/domenicanarvaez/Teoria-de-la-programacion-Portafolio-Digital/blob/main/PortafolioDigital.md#-declaraci%C3%B3n-de-uso-de-la-ia-generativa)
 
@@ -104,13 +109,24 @@ A continuación, se presenta el desglose de las unidades que componen este porta
 
 ### ⬜️ Unidad 3
 
-*(No aplica para esta entrega)*
+¡Ordenando y fortaleciendo el código! En esta unidad aprendimos a estructurar mejor los programas mediante funciones, modularidad y arreglos, logrando un código más claro, reutilizable y fácil de mantener.
+
+> **➡️ Haz clic aquí para ver todo el contenido de la Unidad 2:**
+> ## **[🚀 Acceder a la Unidad 3](Unidad3.md)**
+
+*(Este enlace te llevará a la subcarpeta de la Unidad 3)*
 
 ---
 
-### 📋 Conclusiones Generales
+### 🌟 Conclusiones Generales
 
-*(No aplica para esta entrega)*
+* El desarrollo de este portafolio digital permitió evidenciar el proceso de aprendizaje y crecimiento adquirido a lo largo del ciclo en la asignatura **Teoría de la Programación**, fortaleciendo de manera progresiva la lógica, el razonamiento y la forma de abordar problemas computacionales. A través de los distintos contenidos trabajados, fue posible comprender que programar no es únicamente escribir código, sino **pensar, analizar y estructurar soluciones de manera ordenada**. 🧠💻
+
+* El uso de algoritmos, pseudocódigo y diagramas de flujo fue fundamental para construir una base sólida, ya que permitió aprender a representar soluciones de forma clara antes de llevarlas a un lenguaje de programación. Esto ayudó a desarrollar una mejor comprensión de las estructuras secuenciales y a visualizar cómo se ejecutan las instrucciones paso a paso, facilitando la transición hacia programas más complejos. 📄➡️💡
+
+* El aprendizaje de estructuras condicionales y repetitivas permitió dar mayor **dinamismo e inteligencia** a los programas, logrando que estos pudieran tomar decisiones y repetir procesos de forma automática. La combinación de estas estructuras fortaleció la lógica algorítmica y demostró la importancia de controlar el flujo de ejecución para resolver problemas de manera eficiente y adaptable. 🔁🔀
+
+* La introducción de la modularidad y el uso de arreglos consolidaron los conocimientos adquiridos, permitiendo organizar mejor el código, reutilizar funciones y manejar conjuntos de datos de forma estructurada. Estos conceptos reforzaron la idea de que un buen programa no solo debe funcionar correctamente, sino también ser **claro, ordenado y fácil de mantener**, cualidades esenciales en el desarrollo de software. 🧩📊
 
 ---
 
