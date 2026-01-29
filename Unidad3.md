@@ -23,12 +23,12 @@ La **modularidad** es una técnica de programación que consiste en dividir un p
   ✔️ Mejor trabajo colaborativo  
   ✔️ Programas más escalables  
 
-## ¿Qué es una función?
+## ¿Qué es una función? 🤔
 
 Una **función** es un bloque de código que realiza una tarea específica y que puede ser reutilizado en diferentes partes de un programa. Su objetivo principal es **organizar el código**, hacerlo más **legible**, **modular** y **fácil de mantener**.
 En lugar de repetir instrucciones varias veces, se encapsulan dentro de una función y se la llama cuando sea necesario.
 
-* ### Funciones con valor de retorno
+* ### Funciones con valor de retorno 🔁
 
   Son aquellas que, luego de ejecutar su lógica interna, **devuelven un resultado** al lugar desde donde fueron llamadas.  
   Para esto se utiliza la palabra clave `return`.
@@ -41,7 +41,7 @@ En lugar de repetir instrucciones varias veces, se encapsulan dentro de una func
 
   **Ejemplo conceptual:**
 
-* ### Funciones sin valor de retorno
+* ### Funciones sin valor de retorno 🚫🔁
   Son aquellas que **no devuelven ningún valor** al finalizar su ejecución.  
   Se identifican porque su tipo de dato es `void`.
   Este tipo de funciones se utiliza cuando la tarea a realizar es mostrar información, modificar variables globales o ejecutar procesos que no requieren devolver un resultado.
@@ -54,20 +54,48 @@ En lugar de repetir instrucciones varias veces, se encapsulan dentro de una func
   **Ejemplo conceptual:**
 
 * ### Funciones con parámetros
-Las **funciones con parámetros** permiten recibir datos desde el programa principal u otra función.  
-Estos datos se llaman **parámetros** y actúan como variables dentro de la función.
+  Las **funciones con parámetros** permiten enviar información desde el programa principal hacia una función para que esta pueda trabajar con dichos datos.
+  Según la forma en que se envían esos valores, existen **dos tipos de paso de parámetros**: **por valor** y **por referencia** 🔁.
 
-Gracias a los parámetros, una función puede trabajar con distintos valores sin necesidad de modificar su código interno, lo que aumenta su reutilización y flexibilidad.
+* ### Paso de parámetros por valor 📦
+  En el **paso por valor**, la función recibe **una copia del valor original** de la variable. 
+  Esto significa que cualquier cambio realizado dentro de la función **NO afecta** a la variable original del programa principal.
 
-**Características:**
-- Los parámetros se definen en la declaración de la función.
-- Se envían valores al momento de llamar a la función.
-- Pueden combinarse con funciones con o sin valor de retorno.
+  👉 Es el tipo de paso más seguro cuando no se desea modificar los datos originales.
 
-**Ejemplo conceptual:**
-- Una función que reciba dos números y calcule su suma.
-- Una función que reciba una cadena y la muestre en pantalla.
+  **Características principales:**
+  - Se envía una **copia** del dato.
+  - Los cambios solo afectan a la variable local de la función.
+  - La variable original permanece intacta.
+  - Es el más utilizado para cálculos y operaciones temporales.
+
+  **Ejemplo conceptual:**
+
+* ### Paso de parámetros por referencia 🔗
+  En el **paso por referencia**, la función recibe **la dirección de memoria** de la variable original.  
+  Esto permite que cualquier modificación hecha dentro de la función **sí afecte directamente** a la variable original.
+
+  👉 Se usa cuando se necesita devolver múltiples resultados o modificar datos sin usar `return`.
+
+  **Características principales:**
+  - Se trabaja directamente sobre la variable original.
+  - Los cambios dentro de la función se reflejan fuera de ella.
+  - En C se usa mediante **punteros** (`*`).
+  - Es más eficiente para grandes volúmenes de datos.
+
+  **Ejemplo conceptual:**
+
+  #### 🆚 Comparación rápida
+  
+    | Paso por Valor 📦 | Paso por Referencia 🔗 |
+    |------------------|-----------------------|
+    | No modifica la variable original | Modifica la variable original |
+    | Trabaja con copias | Trabaja con direcciones de memoria |
+    | Más seguro | Más flexible |
+    | Ideal para cálculos | Ideal para modificaciones |
+
+
+✨ Las funciones, ya sea con o sin valor de retorno y con parámetros, son una base esencial de la **programación estructurada y modular**, ya que permiten crear programas más ordenados, claros y eficientes.
 
 ---
 
-Las funciones, ya sea con o sin valor de retorno y con parámetros, son una base esencial de la programación estructurada y modular, ya que permiten crear programas más ordenados, claros y eficientes.
